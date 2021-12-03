@@ -33,4 +33,3 @@
     ],
     'installable': True
 }
-
