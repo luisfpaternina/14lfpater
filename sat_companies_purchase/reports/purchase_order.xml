@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <data>
-        <report
-                id="report_template_purchase_order"
-                string="Orden de compra Serki"
-                model="purchase.order"
-                report_type="qweb-pdf"
-                name="sat_companies_purchase.report_template_purchase_order"
-        />
-
+        
         <template id="report_template_purchase_order">
             <t t-call="web.html_container">
                 <t t-foreach="docs" t-as="o">                    
@@ -287,5 +280,14 @@
                 </t>
             </t>
         </template>
+
+        <report
+                id="report_template_purchase_order_sat"
+                string="Orden de compra Serki"
+                model="purchase.order"
+                report_type="qweb-pdf"
+                name="sat_companies_purchase.report_template_purchase_order"
+        />
+
     </data>
 </odoo>
