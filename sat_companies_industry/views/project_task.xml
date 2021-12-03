@@ -36,9 +36,6 @@
                 <page name="gadgets" string="Gadgets">
                     <group>
                         <group>
-                            <field name="gadget_code"/>
-                        </group>
-                        <group>
                             <field name="product_id" options="{'no_create': True, 'no_create_edit':True}" domain = "[('is_gadget','=',True)]"/>
                         </group>
                         <group>

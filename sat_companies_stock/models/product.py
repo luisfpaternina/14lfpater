@@ -22,11 +22,7 @@ class ProductTemplate(models.Model):
         tracking=True)
     code = fields.Char(
         string="Code",
-        tracking=True,
-        readonly=True,
-        required=True,
-        copy=False,
-        default='New')
+        tracking=True)
     partner_id = fields.Many2one(
         'res.partner',
         string="Client",
@@ -451,15 +447,6 @@ class ProductTemplate(models.Model):
                 record.qr_cabine_image = False
                 record.qr_machine = False
                 record.qr_machine_image = False
-
-
-    # Ejecutar Secuencia 
-    @api.model
-    def create(self, vals):
-        if vals.get('code', 'New') == 'New':
-            vals['code'] = self.env['ir.sequence'].next_by_code('gadgets') or 'New'
-        result = super(ProductTemplate, self).create(vals)
-        return result
 
 
     @api.constrains('start_date_contract','end_date_contract')
