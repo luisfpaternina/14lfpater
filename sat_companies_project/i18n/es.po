@@ -120,7 +120,7 @@ msgstr "Chequeo de Máquina"
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__check_pit
 msgid "Check Pit"
-msgstr "Chequeo de Pozo"
+msgstr "Chequeo de Foso"
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__check_qr_active
@@ -203,7 +203,7 @@ msgstr "Descargar Imagen QR para Máquin"
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__qr_pit
 msgid "Dowload Qr Image Pit"
-msgstr "Descargar Imagen QR para Pozo"
+msgstr "Descargar Imagen QR para foso"
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_sale_order_type__message_follower_ids
@@ -376,12 +376,12 @@ msgstr "Número de mensajes no leídos"
 #. module: sat_companies_project
 #: model_terms:ir.ui.view,arch_db:sat_companies_project.project_task_inherit_form_view
 msgid "Pit"
-msgstr "Pozo"
+msgstr "Foso"
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__pit_confirm
 msgid "Pit confirm"
-msgstr "Pozo confimación"
+msgstr "Foso confimación"
 
 #. module: sat_companies_project
 #: model:ir.model,name:sat_companies_project.model_project_project
@@ -412,7 +412,7 @@ msgstr "IMAGEN QR - MÁQUINA"
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__qr_pit_image
 msgid "QR CODE IMAGE PIT"
-msgstr "IMAGEN QR - POZO"
+msgstr "IMAGEN QR - FOSO"
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__qr_scanner
@@ -518,7 +518,7 @@ msgstr "La máquina ha sido inspeccionada"
 #. module: sat_companies_project
 #: model_terms:ir.ui.view,arch_db:sat_companies_project.project_task_inherit_form_view
 msgid "The Pit has been checked"
-msgstr "El pozo ha sido inspeccionado"
+msgstr "El foso ha sido inspeccionado"
 
 #. module: sat_companies_project
 #: code:addons/sat_companies_project/models/res_partner.py:0
