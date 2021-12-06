@@ -2,7 +2,7 @@
 <templates id="template" xml:space="preserve">
 
     <t t-extend="ClientDetailsEdit">
-        <t t-jquery=".client-details-right div:nth-child(1)" t-operation="after">
+        <t t-jquery=".client-details-right div:nth-child(5)" t-operation="after">
             <div class='client-detail'>
                 <span class='label'>Uso CFDI</span>
                 <select class="detail l10n_mx_edi_usage" name='l10n_mx_edi_usage' >
@@ -33,20 +33,6 @@
         </t>
     </t>
 
-    <t t-extend="ClientDetails">
-        <t t-jquery=".client-details-right div:nth-child(2)" t-operation="after">
-            <div class='client-detail'>
-                <span class='label'>Uso CFDI</span>
-                <t t-if='partner.l10n_mx_edi_usage'>
-                        <span class='detail l10n_mx_edi_usage'><t t-esc='widget.pos.get_uso_cfdi(partner.l10n_mx_edi_usage)'/></span>
-                </t>
-                <t t-if='!partner.l10n_mx_edi_usage'>
-                    <span class='detail l10n_mx_edi_usage empty'>N/A</span>
-                </t>
-
-            </div>
-        
-        </t>
-    </t>
+    
 
 </templates>
