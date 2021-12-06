@@ -5,5 +5,7 @@ odoo.define('pos_l10n_ar_identification.models', function (require) {
 
     models.load_fields('res.partner', ['first_name',
                                           'last_name']);
+    
+    console.log("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
     console.log(models)
 }); 
