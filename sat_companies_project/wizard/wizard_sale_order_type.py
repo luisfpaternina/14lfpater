@@ -46,7 +46,8 @@ class WizardSaleOrderType(models.TransientModel):
                     self.env['project.task'].create({
                         'name': record.name+' - '+line.product_id.name+'TAREA DE LINEA',
                         'partner_id': record.sale_order_id.partner_id.id,
-                        'ot_type_id': record.sale_type_id.id 
+                        'ot_type_id': record.sale_type_id.id,
+                        'is_fsm': True
                     })
                 
                 
