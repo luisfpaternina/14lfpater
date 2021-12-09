@@ -3,6 +3,7 @@ from odoo import api, fields, models, _
 
 class ResPartner(models.Model):
     _inherit = "res.partner"
+
     @api.constrains('vat', 'l10n_latam_identification_type_id')
     def check_vat(self):
         """ Since we validate more documents than the vat for Argentinian partners (CUIT - VAT AR, CUIL, DNI) we
