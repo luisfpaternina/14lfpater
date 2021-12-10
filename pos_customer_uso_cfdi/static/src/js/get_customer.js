@@ -2,7 +2,7 @@ odoo.define('pos_customer_uso_cfdi.get_customer', function(require) {
     "use strict";
 
     var models = require('point_of_sale.models');
-    models.load_fields("res.partner", ['l10n_mx_edi_usage']);
+    models.load_fields("res.partner", ['first_name','second_name','last_name','second_last_name','fullname']);
 
     var obj 
     self.usos_cfdi = [

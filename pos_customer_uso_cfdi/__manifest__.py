@@ -2,13 +2,15 @@
 {
     'name': 'POS Customer Extend',
 
-    'summary': "Set Default Customer in POS and CFDI Use.",
+    'summary': "Customer in POS",
 
-    'description': 'Set Default Customer in POS',
+    'description': 'Customer in POS',
 
-    'author': '',
+    'author': 'Coondev',
 
-    'website': '',
+    'contributors': ['Luis Felipe Paternina'],
+
+    'website': 'www.coondev.co',
 
     "support": "",
 
@@ -16,7 +18,7 @@
 
     'version': '13.0.0.1.0',
 
-    'depends': ['point_of_sale','l10n_mx_edi'],
+    'depends': ['point_of_sale','partner_ext'],
 
     'data': [
         'views/assets.xml',
