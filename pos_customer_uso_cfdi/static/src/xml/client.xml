@@ -5,7 +5,16 @@
             <div class="client-details-box clearfix">
                 <div class="client-details-left">
                     <div class="client-detail">
-                        <span class="label">Resp. AFIP</span>
+                        <span class="label">Primer nombre</span>
+                        <input class="detail client-address-street" name="first_name"
+                                   t-on-change="captureChange" t-att-value="props.partner.first_name || ''"
+                                   placeholder="Luis"/>
+                    </div>
+                    <div class="client-detail">
+                        <span class="label">Segundo nombre</span>
+                        <input class="detail client-address-street" name="second_name"
+                                   t-on-change="captureChange" t-att-value="props.partner.second_name || ''"
+                                   placeholder="Felipe"/>
                     </div>
                     <div class="client-detail">
                         <span class="label">Street</span>
