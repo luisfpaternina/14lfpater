@@ -19,14 +19,14 @@
                     <div class="client-detail">
                         <span class="label">Primer apellido</span>
                         <input class="detail client-address-last-name" name="second_name"
-                                   t-on-change="captureChange" t-att-value="props.partner.second_name || ''"
-                                   placeholder="Felipe"/>
+                                   t-on-change="captureChange" t-att-value="props.partner.last_name || ''"
+                                   placeholder="Paternina"/>
                     </div>
                     <div class="client-detail">
                         <span class="label">Segundo apellido</span>
                         <input class="detail client-address-second-last-name" name="second_name"
-                                   t-on-change="captureChange" t-att-value="props.partner.second_name || ''"
-                                   placeholder="Felipe"/>
+                                   t-on-change="captureChange" t-att-value="props.partner.second_last_name || ''"
+                                   placeholder="Vital"/>
                     </div>
                     <div class="client-detail">
                         <span class="label">Street</span>
