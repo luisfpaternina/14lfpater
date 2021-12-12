@@ -80,6 +80,22 @@ class ProjectTaskInherit(models.Model):
         'Machine confirm')
     rae_gadget = fields.Char("R.A.E",
                             related="product_id.rae")
+    check_suscription_recurrent = fields.Boolean("Suscription recurrent", compute="_compute_check_suscription_recurrent")
+
+    def _compute_check_suscription_recurrent(self):
+        for record in self:
+            partner = record.partner_id
+            suscription_template = record.product_id.subscription_template_id
+            product = record.product_id
+            subscription_recurrent = self.env['sale.subscription'].search([('partner_id','=',partner.id),('template_id','=',suscription_template.id)])
+            if subscription_recurrent.recurring_invoice_line_ids:
+                ids_products = subscription_recurrent.recurring_invoice_line_ids.ids
+                if record.product_id in ids_products:
+                    record.check_suscription_recurrent = True
+                else:
+                    record.check_suscription_recurrent = False
+            else:
+                record.check_suscription_recurrent = False
 
 
     def confirm_check_gadget(self):
