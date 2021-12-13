@@ -89,8 +89,11 @@ class ProjectTaskInherit(models.Model):
             product = record.product_id
             subscription_recurrent = self.env['sale.subscription'].search([('partner_id','=',partner.id),('template_id','=',suscription_template.id)])
             if subscription_recurrent.recurring_invoice_line_ids:
-                ids_products = subscription_recurrent.recurring_invoice_line_ids.ids
-                if record.product_id in ids_products:
+                ids_products = []
+                for p in subscription_recurrent.recurring_invoice_line_ids:
+                    ids_products.append(p.product_id.id)
+
+                if product.id in ids_products:
                     record.check_suscription_recurrent = True
                 else:
                     record.check_suscription_recurrent = False
