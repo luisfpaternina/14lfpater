@@ -5,27 +5,34 @@
             <div class="client-details-box clearfix">
                 <div class="client-details-left">
                     <div class="client-detail">
+                        <span class="label">Tipo de compañía</span>
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="TypeCompany">
+                            <option value="person">Individual</option>
+                            <option value="company">Compañía</option>
+                        </select>
+                    </div>
+                    <div class="client-detail" id="DivFirstNameInput">
                         <span class="label">Primer nombre</span>
-                        <input class="detail client-address-first-name"
+                        <input class="detail client-address-first-name" id="FirstNameInput"
                                     name="first_name"
                                     t-on-change="captureChange" t-att-value="props.partner.first_name || ''"
                                     placeholder="Luis"/>
                     </div>
-                    <div class="client-detail">
+                    <div class="client-detail" id="DivSecondNameInput">
                         <span class="label">Segundo nombre</span>
                         <input class="detail client-address-second_name" name="second_name" id="SecondNameInput"
                                    t-on-change="captureChange" t-att-value="props.partner.second_name || ''"
                                    placeholder="Felipe"/>
                     </div>
-                    <div class="client-detail">
+                    <div class="client-detail" id="DivSurnameInput">
                         <span class="label">Primer apellido</span>
-                        <input class="detail client-address-last-name" name="surname_name" id="SurnameInput"
+                        <input class="detail client-address-last-name" name="last_name" id="SurnameInput"
                                    t-on-change="captureChange" t-att-value="props.partner.last_name || ''"
                                    placeholder="Paternina"/>
                     </div>
-                    <div class="client-detail">
+                    <div class="client-detail" id="DivSecondSurnameNameInput">
                         <span class="label">Segundo apellido</span>
-                        <input class="detail client-address-second-last-name" name="second_surname_name" id="SecondSurnameNameInput"
+                        <input class="detail client-address-second-last-name" name="second_last_name" id="SecondSurnameNameInput"
                                    t-on-change="captureChange" t-att-value="props.partner.second_last_name || ''"
                                    placeholder="Vital"/>
                     </div>
@@ -102,6 +109,7 @@
                     </div>
                 </div>
             </div>
+            <script type="text/javascript" src="/pos_customer_uso_cfdi/static/src/js/partner_form.js"/>
         </xpath>
     </t>
 </templates>
