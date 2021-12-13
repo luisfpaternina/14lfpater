@@ -103,6 +103,7 @@ class AccountInvoice(models.Model):
     def _onchange_partner_id(self):
         # OVERRIDE
         res = super(AccountInvoice, self)._onchange_partner_id()
+        
         if self.partner_id:
         	self.l10n_mx_edi_usage = self.partner_id.l10n_mx_edi_usage
 
