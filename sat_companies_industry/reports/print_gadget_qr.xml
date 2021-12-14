@@ -14,7 +14,7 @@
                                 <center>
                                     <img t-att-src="'data:image/png;base64,%s' % to_text(o.qr_pit)"/>
                                     <div>
-                                        <span style="font-size:20px">RAE:</span><span t-field="o.rae"></span><br></br>
+                                        <span style="font-size:40px">RAE:</span><span t-field="o.rae"></span><br></br>
                                         <span t-field="o.delegation_id"></span><span> </span><span>Foso</span><br></br>
                                         <span t-field="o.name"></span>
                                     </div>
