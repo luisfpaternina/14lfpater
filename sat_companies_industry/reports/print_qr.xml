@@ -34,9 +34,9 @@
                                 <center>
                                     <img t-att-src="'data:image/png;base64,%s' % to_text(o.qr_machine)"/>
                                     <div>
-                                        <span>RAE:</span><span t-field="o.product_id.rae"></span><br></br>
-                                        <span t-field="o.product_id.delegation_id"></span><span> </span><span>Máquina</span><br></br>
-                                        <span t-field="o.product_id"></span>
+                                        <span style="font-size:30px">RAE:</span><span t-field="o.product_id.rae" style="font-size:30px"></span><br></br>
+                                        <span t-field="o.product_id.delegation_id" style="font-size:30px"></span><span> </span><span style="font-size:30px">Máquina</span><br></br>
+                                        <span t-field="o.product_id" style="font-size:30px"></span>
                                     </div>
                                 </center>
                             </t>
