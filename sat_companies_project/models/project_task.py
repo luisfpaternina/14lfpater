@@ -1,5 +1,6 @@
 from odoo import models, fields, api, _
 from odoo.exceptions import ValidationError
+from datetime import tzinfo, timedelta, datetime
 from odoo.http import request
 import base64
 from io import BytesIO
@@ -80,6 +81,28 @@ class ProjectTaskInherit(models.Model):
         'Machine confirm')
     rae_gadget = fields.Char("R.A.E",
                             related="product_id.rae")
+    check_suscription_recurrent = fields.Boolean("Suscription recurrent", compute="_compute_check_suscription_recurrent")
+    check_pit_datetime = fields.Datetime('Check Datetime Pit')
+    check_cabine_datetime = fields.Datetime('Check Datetime Cabine')
+    check_machine_datetime = fields.Datetime('Check Datetime Machine')
+
+    def _compute_check_suscription_recurrent(self):
+        for record in self:
+            partner = record.partner_id
+            suscription_template = record.product_id.subscription_template_id
+            product = record.product_id
+            subscription_recurrent = self.env['sale.subscription'].search([('partner_id','=',partner.id),('template_id','=',suscription_template.id)])
+            if subscription_recurrent.recurring_invoice_line_ids:
+                ids_products = []
+                for p in subscription_recurrent.recurring_invoice_line_ids:
+                    ids_products.append(p.product_id.id)
+
+                if product.id in ids_products:
+                    record.check_suscription_recurrent = True
+                else:
+                    record.check_suscription_recurrent = False
+            else:
+                record.check_suscription_recurrent = False
 
 
     def confirm_check_gadget(self):
@@ -94,18 +117,21 @@ class ProjectTaskInherit(models.Model):
                     for task in project_task:
                         if gadget_value == 'pit':
                             task.check_pit = True
+                            task.check_pit_datetime = datetime.now()
                             record.pit_confirm = True
                             record.cabin_confirm = False
                             record.machine_confirm = False
                             record.qr_scanner = False
                         elif gadget_value == 'machine':
                             task.check_machine = True
+                            task.check_machine_datetime = datetime.now()
                             record.pit_confirm = False
                             record.cabin_confirm = False
                             record.machine_confirm = True
                             record.qr_scanner = False
                         elif gadget_value == 'cabine':
                             task.check_cabine = True
+                            task.check_cabine_datetime = datetime.now()
                             record.pit_confirm = False
                             record.cabin_confirm = True
                             record.machine_confirm = False
