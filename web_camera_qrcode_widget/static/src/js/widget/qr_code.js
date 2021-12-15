@@ -453,12 +453,10 @@ odoo.define('web.web_camera_qrcode_widget', function (require) {
                 self.camera_source.prop('disabled', false); //启用
                 self.scannerLaser.removeClass("o_hidden");
                 if (result) {
-                    qr_scanned = document.getElementById("qr_scanned")
-                    qr_scanned.hidden = false
                     audio.play();
                     self.scan_result_value.textContent = result.text;
                     self.scanResult = result.text;
-                    self.scan_info.text(_t("Scan to the code successful, Format:") + self.getZXingFormat(result.format)).addClass("text-success").removeClass("text-danger").removeClass("text-warning");
+                    self.scan_info.text(_t("QR escaneado con éxito, Format:") + self.getZXingFormat(result.format)).addClass("text-success").removeClass("text-danger").removeClass("text-warning");
                     
                     self.scannerLaser.fadeOut(0.5);
                     setTimeout(function () {
