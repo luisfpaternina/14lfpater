@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-18 13:20+0000\n"
-"PO-Revision-Date: 2021-11-18 13:20+0000\n"
+"POT-Creation-Date: 2021-12-15 18:50+0000\n"
+"PO-Revision-Date: 2021-12-15 18:50+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,28 +16,367 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Acuñamiento cabina:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Acuñamiento contrapeso:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Bancada:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Cables tracción:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Carga(kgs):</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Correa operador:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Cuadro de maniobras:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Embarque:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Fabricante:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Foso reducido:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Freno motor(V):</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Freno operador:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Grupo tractor:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Huida reducida:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Linea netel:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Linea:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Llavín cabina:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Llavín rellano:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Luz temporizada cabina:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Maniobra:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Modelo GSM:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Modelo aparato:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Modelo bidireccional:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>N° paradas:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>N° personas:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Operador puerta:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Pesacargas:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Polea contrapeso (cm):</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Polea desvío (cm):</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Polea limitador (cm):</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Polea tensora (cm):</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Polea tractora (cm):</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Potencia motor(KW):</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Puertas Rellano:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Puffer cabina:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Puffer contrapeso:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Recorrido(mm):</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Sala de máquinas:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Tipo ascensor:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Tipo botonera cabina:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Tipo cerraduras rellano:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Tipo pulsador cabina:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Tipo suelo:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Tipos tubo cabina:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid ""
+"<br/>\n"
+"                                        <strong><span>Velocidad nominal(m/s):</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid ""
 "<br/>\n"
 "                                    <span>Piso:</span>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid ""
 "<br/>\n"
 "                                    <strong>TEC.DESTINO:</strong>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_qr
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
 msgid ""
 "<br/>\n"
-"                       <strong><span>Aparato:</span></strong><span> </span>"
+"                                <strong style=\"font-size:15px\">Nombre aparato:</strong><span> </span>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_labels_gadget_qr
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_labels_qr
+msgid "<span style=\"font-size:60px\">RAE:</span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_labels_gadget_qr
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_labels_qr
+msgid "<span> </span><span style=\"font-size:60px\">Cabina</span><br/>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_labels_gadget_qr
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_labels_qr
+msgid "<span> </span><span style=\"font-size:60px\">Foso</span><br/>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_labels_gadget_qr
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_labels_qr
+msgid "<span> </span><span style=\"font-size:60px\">Máquina</span><br/>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid ""
 "<span>PUESTA EN MARCHA:</span><br/>\n"
 "                                    <span>REPARACIÓN:</span><br/>\n"
@@ -45,54 +384,64 @@ msgid ""
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_qr
-msgid "<strong><span>OT:</span></strong><span> </span>"
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid "<strong style=\"font-size:15px\">Código aparato:</strong><span> </span>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid "<strong><span>R.A.E:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid "<strong><span>Tipo botonera rellano:</span></strong><span> </span>"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid "<strong>CANT.</strong>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid "<strong>CONCEPTO</strong>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid "<strong>DATOS PUERTA</strong>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid "<strong>DATOS SERVICIO</strong>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid "<strong>FECHA:</strong><span> </span>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid "<strong>MATERIALES:</strong>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid "<strong>OBSERVACIONES</strong>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid ""
 "<strong>POR EL CLIENTE</strong><br/><br/>\n"
 "                                    <span>Nombre del cliente:</span><span> </span>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid ""
 "<strong>POR EL OPERARIO</strong><br/><br/>\n"
 "                                    <span>Fecha:</span><br/>\n"
@@ -103,22 +452,22 @@ msgid ""
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid "<strong>PUERTA:</strong>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid "<strong>SERVICIO</strong>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid "<strong>TRABAJO REALIZADO:</strong>"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid "<strong>tapas y protecciones cuadro</strong>"
 msgstr ""
 
@@ -208,11 +557,6 @@ msgid "August"
 msgstr "Agosto"
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_qr
-msgid "Cabina"
-msgstr ""
-
-#. module: sat_companies_industry
 #: model:ir.model.fields,field_description:sat_companies_industry.field_project_task__checklist_ids
 #: model:ir.model.fields,field_description:sat_companies_industry.field_project_task_ot_checklist_line__checklist_id
 msgid "Checklist"
@@ -279,6 +623,11 @@ msgstr "Creado por"
 #: model:ir.model.fields,field_description:sat_companies_industry.field_project_task_type_associated__create_date
 msgid "Created on"
 msgstr "Creado en"
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid "DATOS TÉCNICOS"
+msgstr ""
 
 #. module: sat_companies_industry
 #: model:ir.model.fields,field_description:sat_companies_industry.field_project_task__ot_date
@@ -399,11 +748,6 @@ msgid "Formated date"
 msgstr "Formato fecha"
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_qr
-msgid "Foso"
-msgstr ""
-
-#. module: sat_companies_industry
 #: model:ir.model.fields,field_description:sat_companies_industry.field_multiple_labels_lines__product_id
 #: model:ir.model.fields,field_description:sat_companies_industry.field_project_task__gadget_id
 #: model:ir.model.fields,field_description:sat_companies_industry.field_project_task__product_id
@@ -482,6 +826,12 @@ msgstr ""
 #: model:ir.model.fields,help:sat_companies_industry.field_project_task_type_associated__message_has_error
 #: model:ir.model.fields,help:sat_companies_industry.field_project_task_type_associated__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: sat_companies_industry
+#: model:ir.actions.report,name:sat_companies_industry.report_print_gadget_qr
+#: model:ir.actions.report,name:sat_companies_industry.report_print_qr
+msgid "Imprimir etiquetas QR de aparatos"
 msgstr ""
 
 #. module: sat_companies_industry
@@ -780,11 +1130,6 @@ msgid "Multiple labels lines"
 msgstr "Líneas de múltiples etiquetas"
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_qr
-msgid "Máquina"
-msgstr ""
-
-#. module: sat_companies_industry
 #: model:ir.model.fields,field_description:sat_companies_industry.field_maintenance_minute_point__name
 #: model:ir.model.fields,field_description:sat_companies_industry.field_maintenance_type_deffect__name
 #: model:ir.model.fields,field_description:sat_companies_industry.field_project_task_inspection__name
@@ -879,7 +1224,7 @@ msgid "Number of unread messages"
 msgstr ""
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_custom_template_worksheet
 msgid "N° OT:"
 msgstr ""
 
@@ -966,6 +1311,11 @@ msgid "Phone"
 msgstr "Télefono"
 
 #. module: sat_companies_industry
+#: model:ir.actions.report,name:sat_companies_industry.report_print_template_data_industry
+msgid "Plantilla datos técnicos"
+msgstr ""
+
+#. module: sat_companies_industry
 #: model:ir.model.fields,field_description:sat_companies_industry.field_project_task__population_code
 msgid "Population code"
 msgstr "Código población"
@@ -991,13 +1341,13 @@ msgid "Print"
 msgstr "IMPRIMIR"
 
 #. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_qr
-msgid "Print QR labels"
-msgstr "Impresión de etiquetas QR"
-
-#. module: sat_companies_industry
 #: model:ir.model.fields,field_description:sat_companies_industry.field_multiple_labels_lines__wizard_id
 msgid "Print wizard"
+msgstr ""
+
+#. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_technical_data_industry
+msgid "RECOPILACIÓN DATOS APARATOS"
 msgstr ""
 
 #. module: sat_companies_industry
@@ -1073,10 +1423,21 @@ msgid "Task"
 msgstr "Tarea"
 
 #. module: sat_companies_industry
+#: model_terms:ir.ui.view,arch_db:sat_companies_industry.view_project_task_sat_companies
+msgid "Technical data"
+msgstr "Datos técnicos"
+
+#. module: sat_companies_industry
+#: code:addons/sat_companies_industry/models/.ipynb_checkpoints/project_task-checkpoint.py:0
 #: code:addons/sat_companies_industry/models/project_task.py:0
 #, python-format
 msgid "The column should be one per line"
 msgstr "No se puede repetir registros en las líneas de la tabla de checklist"
+
+#. module: sat_companies_industry
+#: model:ir.actions.report,name:sat_companies_industry.report_custom_template
+msgid "Trabajos OT"
+msgstr ""
 
 #. module: sat_companies_industry
 #: model:ir.model.fields,field_description:sat_companies_industry.field_project_task__ot_type_id
@@ -1211,11 +1572,6 @@ msgstr "Nombre"
 #: model_terms:ir.ui.view,arch_db:sat_companies_industry.view_project_task_ot_typet_form
 #: model_terms:ir.ui.view,arch_db:sat_companies_industry.view_project_task_type_associated_form
 msgid "ot_checklist_form"
-msgstr ""
-
-#. module: sat_companies_industry
-#: model_terms:ir.ui.view,arch_db:sat_companies_industry.report_print_qr
-msgid "pie de pagina"
 msgstr ""
 
 #. module: sat_companies_industry
