@@ -73,9 +73,11 @@
                 </div>
 
             </div>
+            <!--
             <div class="alert alert-success" role="alert" id="qr_scanned" hidden="True">
-                ESCANER HECHO
+                QR ESCANEADO
             </div>
+            -->
             <div class="o_camera_widget_scan_result">
                 <pre><code id="scan_result" class="scan_result_value"></code></pre>               
             </div>
