@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 14:52+0000\n"
-"PO-Revision-Date: 2021-10-26 14:52+0000\n"
+"POT-Creation-Date: 2021-12-15 12:48+0000\n"
+"PO-Revision-Date: 2021-12-15 12:48+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -82,6 +82,11 @@ msgid "Active"
 msgstr "Activo"
 
 #. module: sat_companies_project
+#: model:ir.model.fields,field_description:sat_companies_project.field_wizard_sale_order_type__add_task_line
+msgid "Add Task line ?"
+msgstr ""
+
+#. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_sale_order_type__message_attachment_count
 msgid "Attachment Count"
 msgstr "Atchivos Adjuntos"
@@ -89,12 +94,12 @@ msgstr "Atchivos Adjuntos"
 #. module: sat_companies_project
 #: model_terms:ir.ui.view,arch_db:sat_companies_project.project_task_inherit_form_view
 msgid "Cabine"
-msgstr "Cabina"
+msgstr "Techo cabina"
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__cabin_confirm
 msgid "Cabine confirm"
-msgstr "Confirmación Cabina"
+msgstr "Confirmación Techo cabina"
 
 #. module: sat_companies_project
 #: model_terms:ir.ui.view,arch_db:sat_companies_project.project_task_inherit_form_view
@@ -110,7 +115,22 @@ msgstr ""
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__check_cabine
 msgid "Check Cabine"
-msgstr "Chequeo de Cabina"
+msgstr "Chequeo de Techo cabina"
+
+#. module: sat_companies_project
+#: model:ir.model.fields,field_description:sat_companies_project.field_project_task__check_cabine_datetime
+msgid "Check Datetime Cabine"
+msgstr "Fecha de scanner Techo cabina"
+
+#. module: sat_companies_project
+#: model:ir.model.fields,field_description:sat_companies_project.field_project_task__check_machine_datetime
+msgid "Check Datetime Machine"
+msgstr "Fecha de scanner Sala de Máquinas"
+
+#. module: sat_companies_project
+#: model:ir.model.fields,field_description:sat_companies_project.field_project_task__check_pit_datetime
+msgid "Check Datetime Pit"
+msgstr "Fecha de scanner foso"
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__check_machine
@@ -131,6 +151,11 @@ msgstr "Chequeo Qr"
 #: model:ir.model.fields.selection,name:sat_companies_project.selection__project_task__state_check_qr__checking
 msgid "Checking"
 msgstr "En Inspección"
+
+#. module: sat_companies_project
+#: model:ir.model.fields,field_description:sat_companies_project.field_sale_order_type__code
+msgid "Code"
+msgstr ""
 
 #. module: sat_companies_project
 #: model_terms:ir.ui.view,arch_db:sat_companies_project.project_task_inherit_form_view
@@ -193,17 +218,17 @@ msgstr "Hecho"
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__qr_cabine
 msgid "Dowload QR Image Cabine"
-msgstr "Descargar Imagen QR para Cabina"
+msgstr "Descargar Imagen QR para Techo cabina"
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__qr_machine
 msgid "Dowload QR Image Machine"
-msgstr "Descargar Imagen QR para Máquin"
+msgstr "Descargar Imagen QR para Máquina"
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__qr_pit
 msgid "Dowload Qr Image Pit"
-msgstr "Descargar Imagen QR para foso"
+msgstr "Descargar Imagen QR para Foso"
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_sale_order_type__message_follower_ids
@@ -390,6 +415,11 @@ msgid "Project"
 msgstr "Proyecto"
 
 #. module: sat_companies_project
+#: model:ir.model.fields,field_description:sat_companies_project.field_wizard_sale_order_type__project_line_ids
+msgid "Project Line"
+msgstr ""
+
+#. module: sat_companies_project
 #: model_terms:ir.ui.view,arch_db:sat_companies_project.wizard_sale_order_type_form
 msgid "Project name"
 msgstr "Nombre de proyecto"
@@ -402,7 +432,7 @@ msgstr "proyecto relacionado"
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__qr_cabine_image
 msgid "QR CODE IMAGE CABINE"
-msgstr "IMAGEN QR - CABINA"
+msgstr "IMAGEN QR - TECHO CABINA"
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__qr_machine_image
@@ -421,9 +451,19 @@ msgid "Qr Scanner"
 msgstr "Qr Escaner"
 
 #. module: sat_companies_project
+#: model:ir.model.fields,field_description:sat_companies_project.field_project_task__rae_gadget
+msgid "R.A.E"
+msgstr ""
+
+#. module: sat_companies_project
 #: model_terms:ir.ui.view,arch_db:sat_companies_project.project_task_inherit_form_view
 msgid "RAE:"
-msgstr "RAE:"
+msgstr ""
+
+#. module: sat_companies_project
+#: model_terms:ir.ui.view,arch_db:sat_companies_project.wizard_sale_order_type_form
+msgid "Related Lines"
+msgstr ""
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_sale_order_type__message_has_sms_error
@@ -433,7 +473,7 @@ msgstr "Error de entrega de SMS"
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_project__sale_order_id
 msgid "Sale Order"
-msgstr "Presupuesto"
+msgstr ""
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_project__sale_type_origin_id
@@ -490,6 +530,11 @@ msgid "State Check Gagdest"
 msgstr "Estado Chequeo del aparato"
 
 #. module: sat_companies_project
+#: model:ir.model.fields,field_description:sat_companies_project.field_project_task__check_suscription_recurrent
+msgid "Suscription recurrent"
+msgstr ""
+
+#. module: sat_companies_project
 #: model:ir.model,name:sat_companies_project.model_project_task
 #: model_terms:ir.ui.view,arch_db:sat_companies_project.view_sale_order_typet_form
 msgid "Task"
@@ -501,6 +546,11 @@ msgid "Task State"
 msgstr "Estado de la tarea"
 
 #. module: sat_companies_project
+#: model_terms:ir.ui.view,arch_db:sat_companies_project.wizard_sale_order_type_form
+msgid "Task lines"
+msgstr ""
+
+#. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_sale_order_type__project_task_ids
 msgid "Tasks"
 msgstr "Tareas"
@@ -508,7 +558,7 @@ msgstr "Tareas"
 #. module: sat_companies_project
 #: model_terms:ir.ui.view,arch_db:sat_companies_project.project_task_inherit_form_view
 msgid "The Cabin has been checked"
-msgstr "La cabina ha sido inspecionada"
+msgstr "Techo cabina ha sido inspecionada"
 
 #. module: sat_companies_project
 #: model_terms:ir.ui.view,arch_db:sat_companies_project.project_task_inherit_form_view
@@ -521,16 +571,16 @@ msgid "The Pit has been checked"
 msgstr "El foso ha sido inspeccionado"
 
 #. module: sat_companies_project
-#: code:addons/sat_companies_project/models/res_partner.py:0
+#: code:addons/sat_companies_project/models/.ipynb_checkpoints/res_partner-checkpoint.py:0
 #, python-format
 msgid "The bank account field must be filled out"
-msgstr "Debe completar el campo de la cuenta bancaria"
+msgstr ""
 
 #. module: sat_companies_project
-#: code:addons/sat_companies_project/models/res_partner.py:0
+#: code:addons/sat_companies_project/models/.ipynb_checkpoints/res_partner-checkpoint.py:0
 #, python-format
 msgid "The identification number field must be filled out"
-msgstr "Se debe completar el campo del número de identificación"
+msgstr ""
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_project_task__to_gadget
@@ -559,10 +609,11 @@ msgid "Validate potential client in partner"
 msgstr "Validar si el cliente es potencial"
 
 #. module: sat_companies_project
+#: code:addons/sat_companies_project/models/.ipynb_checkpoints/sale_order-checkpoint.py:0
 #: code:addons/sat_companies_project/models/sale_order.py:0
 #, python-format
 msgid "Verify the type of client if it is potential"
-msgstr "Verificar si el cliente es potencial!"
+msgstr ""
 
 #. module: sat_companies_project
 #: model:ir.model.fields,field_description:sat_companies_project.field_sale_order_type__website_message_ids
@@ -572,7 +623,7 @@ msgstr "Mensajes sitio Web"
 #. module: sat_companies_project
 #: model:ir.model.fields,help:sat_companies_project.field_sale_order_type__website_message_ids
 msgid "Website communication history"
-msgstr "Website communication history"
+msgstr ""
 
 #. module: sat_companies_project
 #: model_terms:ir.ui.view,arch_db:sat_companies_project.view_sale_order_typet_tree
