@@ -107,6 +107,13 @@
                         <field name="ot_description" placeholder="Observations"/>
                     </group>
                 </page>
+                <page string="Technical data">
+                    <group>
+                        <group>
+                            
+                        </group>
+                    </group>
+                </page>
             </xpath>
             <xpath expr="//field[(@name='partner_id')]" position="after">
                 <field name="ot_type_id" options="{'no_create': True, 'no_create_edit':True}"/>
