@@ -43,6 +43,7 @@
         'views/stock_cockpit_push.xml',
         'views/stock_shipment.xml',
         'views/stock_bench.xml',
+        'views/stock_wash_cabin.xml',
         'reports/technical_data_template.xml',
         
     ],
