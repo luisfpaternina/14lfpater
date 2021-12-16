@@ -14,3 +14,4 @@ from . import stock_soil_type
 from . import stock_cockpit_keypad_type
 from . import stock_cockpit_push_type
 from . import stock_bench
+from . import stock_shipment
