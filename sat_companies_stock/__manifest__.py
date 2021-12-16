@@ -44,6 +44,8 @@
         'views/stock_shipment.xml',
         'views/stock_bench.xml',
         'views/stock_wash_cabin.xml',
+        'views/stock_landing_keypad.xml',
+        'views/stock_landing_lock.xml',
         'reports/technical_data_template.xml',
         
     ],
