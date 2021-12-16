@@ -41,6 +41,8 @@
         'views/stock_soil_type.xml',
         'views/stock_cockpit_keypad.xml',
         'views/stock_cockpit_push.xml',
+        'views/stock_shipment.xml',
+        'views/stock_bench.xml',
         'reports/technical_data_template.xml',
         
     ],
