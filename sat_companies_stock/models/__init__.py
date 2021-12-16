@@ -16,3 +16,5 @@ from . import stock_cockpit_push_type
 from . import stock_bench
 from . import stock_shipment
 from . import stock_wash_cabin
+from . import stock_landing_keypad
+from . import stock_landing_lock
