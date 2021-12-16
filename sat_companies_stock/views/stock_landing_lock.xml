@@ -59,7 +59,7 @@
 
         <menuitem 
             id="menu_stock_landing_lock" 
-            name="Wash cabin" 
+            name="Landing lock" 
             parent="sat_companies_stock.menu_gadgets"
             action="action_view_landing_lock"
             sequence="90"
