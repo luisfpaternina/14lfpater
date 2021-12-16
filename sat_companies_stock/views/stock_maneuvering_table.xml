@@ -5,7 +5,7 @@
 
         <record id="view_stock_maneuvering_table_tree" model="ir.ui.view">
             <field name="name">stock.maneuvering.table.tree</field>
-            <field name="model">maneuvering.table</field>
+            <field name="model">stock.maneuvering.table</field>
             <field name="priority" eval="8" />
             <field name="arch" type="xml">
                 <tree>
