@@ -47,6 +47,7 @@
         'views/stock_landing_keypad.xml',
         'views/stock_landing_lock.xml',
         'views/stock_landing_doors.xml',
+        'views/stock_maneuvering_table.xml',
         'reports/technical_data_template.xml',
         
     ],
