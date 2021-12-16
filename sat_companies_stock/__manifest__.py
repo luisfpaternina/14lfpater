@@ -46,6 +46,7 @@
         'views/stock_wash_cabin.xml',
         'views/stock_landing_keypad.xml',
         'views/stock_landing_lock.xml',
+        'views/stock_landing_doors.xml',
         'reports/technical_data_template.xml',
         
     ],
