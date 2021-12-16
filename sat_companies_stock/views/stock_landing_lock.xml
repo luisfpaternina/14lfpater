@@ -48,7 +48,7 @@
 
         <record model="ir.actions.act_window" id="action_view_landing_lock">
             <field name="name">Landing lock</field>
-            <field name="res_model">landing.lock</field>
+            <field name="res_model">stock.landing.lock</field>
             <field name="view_mode">tree,form</field>
             <field name="domain">[]</field>
             <field name="help" type="html">
