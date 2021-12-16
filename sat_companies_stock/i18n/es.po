@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-03 11:39+0000\n"
-"PO-Revision-Date: 2021-12-03 11:39+0000\n"
+"POT-Creation-Date: 2021-12-16 12:02+0000\n"
+"PO-Revision-Date: 2021-12-16 12:02+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -371,6 +371,7 @@ msgid "<strong><span>Tipo botonera rellano:</span></strong><span> </span>"
 msgstr ""
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_needaction
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_needaction
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_needaction
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_needaction
@@ -382,11 +383,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_needaction
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_needaction
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_needaction
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_needaction
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_needaction
 msgid "Action Needed"
 msgstr ""
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__active
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__active
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__active
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__active
@@ -397,6 +400,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__active
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__active
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__active
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__active
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__active
 msgid "Active"
 msgstr "Activo"
@@ -458,6 +462,7 @@ msgid "Assistance type"
 msgstr "Tipo de asistencia"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_attachment_count
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_attachment_count
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_attachment_count
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_attachment_count
@@ -469,6 +474,7 @@ msgstr "Tipo de asistencia"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_attachment_count
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_attachment_count
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_attachment_count
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_attachment_count
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_attachment_count
 msgid "Attachment Count"
 msgstr ""
@@ -491,8 +497,11 @@ msgid "Belt operator"
 msgstr "Correa operador"
 
 #. module: sat_companies_stock
+#: model:ir.actions.act_window,name:sat_companies_stock.action_view_stock_bench
+#: model:ir.model,name:sat_companies_stock.model_stock_bench
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__bench
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__bench
+#: model:ir.ui.menu,name:sat_companies_stock.menu_stock_bench
 msgid "Bench"
 msgstr "Bancada"
 
@@ -574,9 +583,7 @@ msgid "Code"
 msgstr "Código"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__company_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__company_product_id
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__company_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__company_product_id
 msgid "Company"
 msgstr "Compañía"
@@ -614,6 +621,7 @@ msgstr "Acuñamiento contrapeso"
 #. module: sat_companies_stock
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_stock_cockpit_push_type
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_maintenance_frequency
+#: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_stock_bench
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_stock_cockpit_type
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_stock_elevator_type
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_stock_gadgets
@@ -623,11 +631,13 @@ msgstr "Acuñamiento contrapeso"
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_stock_gadgets_state
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_stock_gadgets_types_assistance
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_stock_gadgets_use
+#: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_stock_shipment
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_stock_soil_type
 msgid "Create new record"
 msgstr "Crear nuevo registro"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__create_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__create_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__create_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__create_uid
@@ -639,11 +649,13 @@ msgstr "Crear nuevo registro"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__create_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__create_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__create_uid
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__create_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__create_uid
 msgid "Created by"
 msgstr "Creado por"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__create_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__create_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__create_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__create_date
@@ -655,6 +667,7 @@ msgstr "Creado por"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__create_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__create_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__create_date
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__create_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__create_date
 msgid "Created on"
 msgstr "Creado en"
@@ -698,6 +711,7 @@ msgstr "Nombre delegación"
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__display_name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_sale_subscription__display_name
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__display_name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__display_name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__display_name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__display_name
@@ -709,6 +723,7 @@ msgstr "Nombre delegación"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__display_name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__display_name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__display_name
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__display_name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__display_name
 msgid "Display Name"
 msgstr "Nombre mostrado"
@@ -787,6 +802,7 @@ msgid "February"
 msgstr "Febrero"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_follower_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_follower_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_follower_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_follower_ids
@@ -798,11 +814,13 @@ msgstr "Febrero"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_follower_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_follower_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_follower_ids
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_follower_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_follower_ids
 msgid "Followers"
 msgstr "Seguidores"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_channel_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_channel_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_channel_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_channel_ids
@@ -814,11 +832,13 @@ msgstr "Seguidores"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_channel_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_channel_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_channel_ids
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_channel_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_channel_ids
 msgid "Followers (Channels)"
 msgstr ""
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_partner_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_partner_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_partner_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_partner_ids
@@ -830,6 +850,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_partner_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_partner_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_partner_ids
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_partner_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_partner_ids
 msgid "Followers (Partners)"
 msgstr "Seguidores"
@@ -946,6 +967,7 @@ msgstr "Fecha alta Call center"
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_sale_subscription__id
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__id
@@ -957,11 +979,14 @@ msgstr "Fecha alta Call center"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__id
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__id
 msgid "ID"
 msgstr ""
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_bench__message_needaction
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_bench__message_unread
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_push_type__message_needaction
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_push_type__message_unread
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_type__message_needaction
@@ -984,12 +1009,16 @@ msgstr ""
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_gadgets_use__message_unread
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_maintenance_frequency__message_needaction
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_maintenance_frequency__message_unread
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__message_needaction
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__message_unread
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_needaction
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_unread
 msgid "If checked, new messages require your attention."
 msgstr ""
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_bench__message_has_error
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_bench__message_has_sms_error
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_push_type__message_has_error
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_push_type__message_has_sms_error
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_type__message_has_error
@@ -1012,6 +1041,8 @@ msgstr ""
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_gadgets_use__message_has_sms_error
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_maintenance_frequency__message_has_error
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_maintenance_frequency__message_has_sms_error
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__message_has_error
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__message_has_sms_error
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_has_error
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
@@ -1052,6 +1083,7 @@ msgid "Is 24H"
 msgstr "Servicio 24H"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_is_follower
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_is_follower
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_is_follower
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_is_follower
@@ -1063,6 +1095,7 @@ msgstr "Servicio 24H"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_is_follower
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_is_follower
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_is_follower
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_is_follower
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_is_follower
 msgid "Is Follower"
 msgstr "Es seguidor"
@@ -1138,6 +1171,7 @@ msgstr "Tipo cerradura rellano"
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template____last_update
 #: model:ir.model.fields,field_description:sat_companies_stock.field_sale_subscription____last_update
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench____last_update
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type____last_update
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type____last_update
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type____last_update
@@ -1149,11 +1183,13 @@ msgstr "Tipo cerradura rellano"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance____last_update
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use____last_update
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency____last_update
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment____last_update
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type____last_update
 msgid "Last Modified on"
 msgstr "Última modificación el"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__write_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__write_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__write_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__write_uid
@@ -1165,11 +1201,13 @@ msgstr "Última modificación el"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__write_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__write_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__write_uid
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__write_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__write_uid
 msgid "Last Updated by"
 msgstr "Última actualización por"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__write_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__write_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__write_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__write_date
@@ -1181,6 +1219,7 @@ msgstr "Última actualización por"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__write_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__write_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__write_date
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__write_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__write_date
 msgid "Last Updated on"
 msgstr "Última actualización en"
@@ -1264,6 +1303,7 @@ msgid "Machine room"
 msgstr "Sala de máquinas"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_main_attachment_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_main_attachment_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_main_attachment_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_main_attachment_id
@@ -1275,6 +1315,7 @@ msgstr "Sala de máquinas"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_main_attachment_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_main_attachment_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_main_attachment_id
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_main_attachment_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_main_attachment_id
 msgid "Main Attachment"
 msgstr ""
@@ -1334,6 +1375,7 @@ msgid "May"
 msgstr "Mayo"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_has_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_has_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_has_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_has_error
@@ -1345,11 +1387,13 @@ msgstr "Mayo"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_has_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_has_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_has_error
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_has_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_has_error
 msgid "Message Delivery error"
 msgstr ""
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_ids
@@ -1361,6 +1405,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_ids
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_ids
 msgid "Messages"
 msgstr "Mensajes"
@@ -1393,6 +1438,7 @@ msgstr "Potencia motor"
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__name
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__name
@@ -1404,7 +1450,9 @@ msgstr "Potencia motor"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__name
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__name
+#: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_bench_form
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_cockpit_push_type_form
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_cockpit_type_form
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_elevator_type_form
@@ -1415,6 +1463,7 @@ msgstr "Potencia motor"
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_gadgets_types_assistance_form
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_gadgets_use_form
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_maintenance_frequency_form
+#: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_shipment_form
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_soil_type_form
 msgid "Name"
 msgstr "Nombre"
@@ -1464,6 +1513,7 @@ msgid "November"
 msgstr "Noviembre"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_needaction_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_needaction_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_needaction_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_needaction_counter
@@ -1475,11 +1525,13 @@ msgstr "Noviembre"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_needaction_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_needaction_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_needaction_counter
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_needaction_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_needaction_counter
 msgid "Number of Actions"
 msgstr ""
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_has_error_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_has_error_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_has_error_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_has_error_counter
@@ -1491,11 +1543,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_has_error_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_has_error_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_has_error_counter
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_has_error_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_has_error_counter
 msgid "Number of errors"
 msgstr "Número de errores"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_bench__message_needaction_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_push_type__message_needaction_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_type__message_needaction_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_elevator_type__message_needaction_counter
@@ -1507,11 +1561,13 @@ msgstr "Número de errores"
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_gadgets_types_assistance__message_needaction_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_gadgets_use__message_needaction_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_maintenance_frequency__message_needaction_counter
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__message_needaction_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_needaction_counter
 msgid "Number of messages which requires an action"
 msgstr ""
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_bench__message_has_error_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_push_type__message_has_error_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_type__message_has_error_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_elevator_type__message_has_error_counter
@@ -1523,6 +1579,7 @@ msgstr ""
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_gadgets_types_assistance__message_has_error_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_gadgets_use__message_has_error_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_maintenance_frequency__message_has_error_counter
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__message_has_error_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr ""
@@ -1540,6 +1597,7 @@ msgid "Number of stops"
 msgstr "N° paradas"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_bench__message_unread_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_push_type__message_unread_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_type__message_unread_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_elevator_type__message_unread_counter
@@ -1551,6 +1609,7 @@ msgstr "N° paradas"
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_gadgets_types_assistance__message_unread_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_gadgets_use__message_unread_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_maintenance_frequency__message_unread_counter
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__message_unread_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_unread_counter
 msgid "Number of unread messages"
 msgstr ""
@@ -1715,6 +1774,7 @@ msgid "Route name"
 msgstr "Nombre de la ruta"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_has_sms_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_has_sms_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_has_sms_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_has_sms_error
@@ -1726,6 +1786,7 @@ msgstr "Nombre de la ruta"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_has_sms_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_has_sms_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_has_sms_error
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_has_sms_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_has_sms_error
 msgid "SMS Delivery error"
 msgstr ""
@@ -1742,8 +1803,11 @@ msgid "September"
 msgstr "Septiembre"
 
 #. module: sat_companies_stock
+#: model:ir.actions.act_window,name:sat_companies_stock.action_view_stock_shipment
+#: model:ir.model,name:sat_companies_stock.model_stock_shipment
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__shipment
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__shipment
+#: model:ir.ui.menu,name:sat_companies_stock.menu_stock_shipment
 msgid "Shipment"
 msgstr "Embarque"
 
@@ -1892,6 +1956,7 @@ msgid "Types assistance"
 msgstr "tipos de asistencia"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_unread
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_unread
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_unread
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_unread
@@ -1903,11 +1968,13 @@ msgstr "tipos de asistencia"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_unread
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_unread
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_unread
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_unread
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_unread
 msgid "Unread Messages"
 msgstr ""
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_unread_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_unread_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_unread_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__message_unread_counter
@@ -1919,6 +1986,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__message_unread_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__message_unread_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__message_unread_counter
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_unread_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_unread_counter
 msgid "Unread Messages Counter"
 msgstr ""
@@ -1952,6 +2020,7 @@ msgid "Wash cabin"
 msgstr "Llavín cabina"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__website_message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__website_message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__website_message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_elevator_type__website_message_ids
@@ -1963,11 +2032,13 @@ msgstr "Llavín cabina"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_types_assistance__website_message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets_use__website_message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maintenance_frequency__website_message_ids
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__website_message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__website_message_ids
 msgid "Website Messages"
 msgstr ""
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_bench__website_message_ids
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_push_type__website_message_ids
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_type__website_message_ids
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_elevator_type__website_message_ids
@@ -1979,6 +2050,7 @@ msgstr ""
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_gadgets_types_assistance__website_message_ids
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_gadgets_use__website_message_ids
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_maintenance_frequency__website_message_ids
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__website_message_ids
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__website_message_ids
 msgid "Website communication history"
 msgstr ""
