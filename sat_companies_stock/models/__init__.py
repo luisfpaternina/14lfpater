@@ -18,3 +18,4 @@ from . import stock_shipment
 from . import stock_wash_cabin
 from . import stock_landing_keypad
 from . import stock_landing_lock
+from . import stock_landing_doors
