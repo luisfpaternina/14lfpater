@@ -50,6 +50,7 @@
         'views/stock_maneuvering_table.xml',
         'views/stock_type_cabin_tubes.xml',
         'views/stock_bidirectional_model.xml',
+        'views/stock_gsm_model.xml',
         'reports/technical_data_template.xml',
         
     ],
