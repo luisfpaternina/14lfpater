@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-16 21:55+0000\n"
-"PO-Revision-Date: 2021-12-16 21:55+0000\n"
+"POT-Creation-Date: 2021-12-17 12:30+0000\n"
+"PO-Revision-Date: 2021-12-17 12:30+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -389,6 +389,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_needaction
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_needaction
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_needaction
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_needaction
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_needaction
 msgid "Action Needed"
 msgstr ""
@@ -411,6 +412,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__active
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__active
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__active
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__active
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__active
 msgid "Active"
 msgstr "Activo"
@@ -490,6 +492,7 @@ msgstr "Tipo de asistencia"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_attachment_count
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_attachment_count
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_attachment_count
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_attachment_count
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_attachment_count
 msgid "Attachment Count"
 msgstr ""
@@ -652,6 +655,7 @@ msgstr "Acuñamiento contrapeso"
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_stock_gadgets_use
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_stock_shipment
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_stock_soil_type
+#: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_types_cabin_tubes
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_view_wash_cabin
 msgid "Create new record"
 msgstr "Crear nuevo registro"
@@ -675,6 +679,7 @@ msgstr "Crear nuevo registro"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__create_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__create_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__create_uid
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__create_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__create_uid
 msgid "Created by"
 msgstr "Creado por"
@@ -698,6 +703,7 @@ msgstr "Creado por"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__create_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__create_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__create_date
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__create_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__create_date
 msgid "Created on"
 msgstr "Creado en"
@@ -759,6 +765,7 @@ msgstr "Nombre delegación"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__display_name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__display_name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__display_name
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__display_name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__display_name
 msgid "Display Name"
 msgstr "Nombre mostrado"
@@ -855,6 +862,7 @@ msgstr "Febrero"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_follower_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_follower_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_follower_ids
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_follower_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_follower_ids
 msgid "Followers"
 msgstr "Seguidores"
@@ -878,6 +886,7 @@ msgstr "Seguidores"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_channel_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_channel_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_channel_ids
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_channel_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_channel_ids
 msgid "Followers (Channels)"
 msgstr ""
@@ -901,6 +910,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_partner_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_partner_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_partner_ids
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_partner_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_partner_ids
 msgid "Followers (Partners)"
 msgstr "Seguidores"
@@ -1035,6 +1045,7 @@ msgstr "Fecha alta Call center"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__id
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__id
 msgid "ID"
 msgstr ""
@@ -1076,6 +1087,8 @@ msgstr ""
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__message_unread
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_needaction
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_unread
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_types_cabin_tubes__message_needaction
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_types_cabin_tubes__message_unread
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_wash_cabin__message_needaction
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_wash_cabin__message_unread
 msgid "If checked, new messages require your attention."
@@ -1118,6 +1131,8 @@ msgstr ""
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__message_has_sms_error
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_has_error
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_has_sms_error
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_types_cabin_tubes__message_has_error
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_types_cabin_tubes__message_has_sms_error
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_wash_cabin__message_has_error
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_wash_cabin__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
@@ -1176,6 +1191,7 @@ msgstr "Servicio 24H"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_is_follower
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_is_follower
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_is_follower
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_is_follower
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_is_follower
 msgid "Is Follower"
 msgstr "Es seguidor"
@@ -1282,6 +1298,7 @@ msgstr "Tipo cerradura rellano"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table____last_update
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment____last_update
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type____last_update
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes____last_update
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin____last_update
 msgid "Last Modified on"
 msgstr "Última modificación el"
@@ -1305,6 +1322,7 @@ msgstr "Última modificación el"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__write_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__write_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__write_uid
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__write_uid
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__write_uid
 msgid "Last Updated by"
 msgstr "Última actualización por"
@@ -1328,6 +1346,7 @@ msgstr "Última actualización por"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__write_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__write_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__write_date
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__write_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__write_date
 msgid "Last Updated on"
 msgstr "Última actualización en"
@@ -1429,6 +1448,7 @@ msgstr "Sala de máquinas"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_main_attachment_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_main_attachment_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_main_attachment_id
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_main_attachment_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_main_attachment_id
 msgid "Main Attachment"
 msgstr ""
@@ -1513,6 +1533,7 @@ msgstr "Mayo"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_has_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_has_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_has_error
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_has_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_has_error
 msgid "Message Delivery error"
 msgstr ""
@@ -1536,6 +1557,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_ids
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_ids
 msgid "Messages"
 msgstr "Mensajes"
@@ -1586,6 +1608,7 @@ msgstr "Potencia motor"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__name
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__name
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__name
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_bench_form
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_cockpit_push_type_form
@@ -1604,6 +1627,7 @@ msgstr "Potencia motor"
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_maneuvering_table_form
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_shipment_form
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_soil_type_form
+#: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_types_cabin_tubes_form
 #: model_terms:ir.ui.view,arch_db:sat_companies_stock.view_stock_wash_cabin_form
 msgid "Name"
 msgstr "Nombre"
@@ -1671,6 +1695,7 @@ msgstr "Noviembre"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_needaction_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_needaction_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_needaction_counter
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_needaction_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_needaction_counter
 msgid "Number of Actions"
 msgstr ""
@@ -1694,6 +1719,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_has_error_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_has_error_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_has_error_counter
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_has_error_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_has_error_counter
 msgid "Number of errors"
 msgstr "Número de errores"
@@ -1717,6 +1743,7 @@ msgstr "Número de errores"
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_maneuvering_table__message_needaction_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__message_needaction_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_needaction_counter
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_types_cabin_tubes__message_needaction_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_wash_cabin__message_needaction_counter
 msgid "Number of messages which requires an action"
 msgstr ""
@@ -1740,6 +1767,7 @@ msgstr ""
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_maneuvering_table__message_has_error_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__message_has_error_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_has_error_counter
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_types_cabin_tubes__message_has_error_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_wash_cabin__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr ""
@@ -1775,6 +1803,7 @@ msgstr "N° paradas"
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_maneuvering_table__message_unread_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__message_unread_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__message_unread_counter
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_types_cabin_tubes__message_unread_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_wash_cabin__message_unread_counter
 msgid "Number of unread messages"
 msgstr ""
@@ -1957,6 +1986,7 @@ msgstr "Nombre de la ruta"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_has_sms_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_has_sms_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_has_sms_error
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_has_sms_error
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_has_sms_error
 msgid "SMS Delivery error"
 msgstr ""
@@ -2126,6 +2156,13 @@ msgid "Types assistance"
 msgstr "tipos de asistencia"
 
 #. module: sat_companies_stock
+#: model:ir.actions.act_window,name:sat_companies_stock.action_view_types_cabin_tubes
+#: model:ir.model,name:sat_companies_stock.model_stock_types_cabin_tubes
+#: model:ir.ui.menu,name:sat_companies_stock.menu_stock_types_cabin_tubes
+msgid "Types cabin tubes"
+msgstr "Tipos tubos cabina"
+
+#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_unread
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_push_type__message_unread
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_cockpit_type__message_unread
@@ -2144,6 +2181,7 @@ msgstr "tipos de asistencia"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_unread
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_unread
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_unread
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_unread
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_unread
 msgid "Unread Messages"
 msgstr ""
@@ -2167,6 +2205,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__message_unread_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__message_unread_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__message_unread_counter
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_unread_counter
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_unread_counter
 msgid "Unread Messages Counter"
 msgstr ""
@@ -2221,6 +2260,7 @@ msgstr "Llavín cabina"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_maneuvering_table__website_message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_shipment__website_message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_soil_type__website_message_ids
+#: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__website_message_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__website_message_ids
 msgid "Website Messages"
 msgstr ""
@@ -2244,6 +2284,7 @@ msgstr ""
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_maneuvering_table__website_message_ids
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_shipment__website_message_ids
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_soil_type__website_message_ids
+#: model:ir.model.fields,help:sat_companies_stock.field_stock_types_cabin_tubes__website_message_ids
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_wash_cabin__website_message_ids
 msgid "Website communication history"
 msgstr ""
