@@ -313,6 +313,8 @@ class ProductTemplate(models.Model):
         required=True,
         readonly=True,
         default=lambda self: self.env.user.company_id)
+    model_gadget = fields.Char(
+        string="Model gadget")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
