@@ -20,3 +20,4 @@ from . import stock_landing_keypad
 from . import stock_landing_lock
 from . import stock_landing_doors
 from . import stock_maneuvering_table
+from . import stock_types_cabin_tubes
