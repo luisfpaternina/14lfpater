@@ -190,6 +190,7 @@
                         <group>
                             <field name="company_product_id" options="{'no_create': True, 'no_create_edit':True}" invisible="1"/>
                             <field name="elevator_type_id" options="{'no_create': True, 'no_create_edit':True}"/>
+                            <field name="landing_doors_id" options="{'no_create': True, 'no_create_edit':True}"/>
                             <field name="partner_maker_id" options="{'no_create': True, 'no_create_edit':True}"/>
                         </group>
                     </group>
