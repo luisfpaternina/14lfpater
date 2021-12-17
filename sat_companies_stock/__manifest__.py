@@ -48,6 +48,7 @@
         'views/stock_landing_lock.xml',
         'views/stock_landing_doors.xml',
         'views/stock_maneuvering_table.xml',
+        'views/stock_type_cabin_tubes.xml',
         'reports/technical_data_template.xml',
         
     ],
