@@ -195,6 +195,7 @@
                         </group>
                         <group>
                             <field name="is_machine_room"/>
+                            <field name="model_gadget"/>
                         </group>
                     </group>
                 </page>
