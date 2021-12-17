@@ -304,6 +304,9 @@ class ProductTemplate(models.Model):
         string="Maker")
     tractor_group = fields.Char(
         string="Tractor group")
+    landing_doors_id = fields.Many2one(
+        'stock.landing.doors',
+        string="Landing doors")
     company_product_id = fields.Many2one(
         'res.company',
         string='Company',
