@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-17 16:01+0000\n"
-"PO-Revision-Date: 2021-12-17 16:01+0000\n"
+"POT-Creation-Date: 2021-12-21 09:16+0000\n"
+"PO-Revision-Date: 2021-12-21 09:16+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -510,21 +510,8 @@ msgid "August"
 msgstr "Agosto"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields.selection,name:sat_companies_stock.selection__product_template__landing_gate__2
-msgid "Automatic"
-msgstr "Automática"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__belt_operator
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__belt_operator
-msgid "Belt operator"
-msgstr "Correa operador"
-
-#. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_stock_bench
 #: model:ir.model,name:sat_companies_stock.model_stock_bench
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__bench
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__bench
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_bench
 msgid "Bench"
 msgstr "Bancada"
@@ -532,8 +519,6 @@ msgstr "Bancada"
 #. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_bidirectional_model
 #: model:ir.model,name:sat_companies_stock.model_stock_bidirectional_model
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__bidirectional_model
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__bidirectional_model
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_bidirectional_model
 msgid "Bidirectional model"
 msgstr "Modelo bidireccional"
@@ -552,28 +537,10 @@ msgid "Billing period"
 msgstr "Periodo de facturación"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__cabin_puffer
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__cabin_puffer
-msgid "Cabin puffer"
-msgstr "Puffer cabina"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__cabin_tube_types
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__cabin_tube_types
-msgid "Cabin tube types"
-msgstr "Tipo tubos cabina"
-
-#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__cabine_phone
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__cabine_phone
 msgid "Cabine phone"
 msgstr "Télefono cabina"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__cabine_wedging
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__cabine_wedging
-msgid "Cabine wedging"
-msgstr "Acuñamiento cabina"
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__partner_id
@@ -584,8 +551,6 @@ msgstr "Cliente"
 #. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_stock_cockpit_type
 #: model:ir.model,name:sat_companies_stock.model_stock_cockpit_type
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__cockpit_keypad_id
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__cockpit_keypad_id
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_cockpit_type
 msgid "Cockpit keypad type"
 msgstr "Tipo botonera cabina"
@@ -593,8 +558,6 @@ msgstr "Tipo botonera cabina"
 #. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_stock_cockpit_push_type
 #: model:ir.model,name:sat_companies_stock.model_stock_cockpit_push_type
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__cockpit_push_id
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__cockpit_push_id
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_cockpit_push_type
 msgid "Cockpit push type"
 msgstr "Tipo pulsador cabina"
@@ -626,24 +589,6 @@ msgstr "Compañía"
 #: model:ir.ui.menu,name:sat_companies_stock.menu_gadgets_contract_type_sale_subscription
 msgid "Contract type"
 msgstr "Tipo de subscripción"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__counterweight_puffer
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__counterweight_puffer
-msgid "Counterweight puffer"
-msgstr "Puffer contrapeso"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__counterweight_pulley
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__counterweight_pulley
-msgid "Counterweight pulley"
-msgstr "Polea contrapeso (cm)"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__counterweight_wedging
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__counterweight_wedging
-msgid "Counterweight wedging"
-msgstr "Acuñamiento contrapeso"
 
 #. module: sat_companies_stock
 #: model_terms:ir.actions.act_window,help:sat_companies_stock.action_stock_cockpit_push_type
@@ -742,12 +687,6 @@ msgid "December"
 msgstr "Diciembre"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__deflection_pulley
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__deflection_pulley
-msgid "Deflection pulley"
-msgstr "Polea desvío"
-
-#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__delegation_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__delegation_id
 msgid "Delegation"
@@ -786,11 +725,6 @@ msgstr "Nombre delegación"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__display_name
 msgid "Display Name"
 msgstr "Nombre mostrado"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields.selection,name:sat_companies_stock.selection__product_template__shipment__double
-msgid "Doble"
-msgstr ""
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__domicile
@@ -970,12 +904,6 @@ msgid "Gadget model"
 msgstr "Modelo aparato"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__route
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__route
-msgid "Gadget route"
-msgstr "Recorrido"
-
-#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__gadget_state
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__gadget_state
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets__gadget_state
@@ -1014,21 +942,10 @@ msgid "Gadgets use"
 msgstr "Uso"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__gate_operator
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__gate_operator
-msgid "Gate operator"
-msgstr "Operador puerta"
-
-#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__employee_greasing_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__employee_greasing_id
 msgid "Greasing operator"
 msgstr "Operador engrase"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields.selection,name:sat_companies_stock.selection__product_template__bench__high
-msgid "High"
-msgstr "Alta"
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__high_mto_company
@@ -1285,27 +1202,15 @@ msgstr "Llaves"
 #. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_landing_doors
 #: model:ir.model,name:sat_companies_stock.model_stock_landing_doors
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__landing_doors_id
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__landing_doors_id
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_landing_doors
 msgid "Landing doors"
 msgstr "Puertas rellano"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__landing_gate
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__landing_gate
-msgid "Landing gate"
-msgstr "Puertas rellano"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__landing_key
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__landing_key
-msgid "Landing key"
-msgstr "Llavín rellano"
-
-#. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_landing_keypad
 #: model:ir.model,name:sat_companies_stock.model_stock_landing_keypad
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__landing_keypad
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__landing_keypad
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_landing_keypad
 msgid "Landing keypad"
 msgstr "Tipo botonera rellano"
@@ -1313,8 +1218,6 @@ msgstr "Tipo botonera rellano"
 #. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_landing_lock
 #: model:ir.model,name:sat_companies_stock.model_stock_landing_lock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__landing_lock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__landing_lock
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_landing_lock
 msgid "Landing lock"
 msgstr "Tipo cerradura rellano"
@@ -1425,34 +1328,11 @@ msgid "Length"
 msgstr "Longitud"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__limiter_pulley
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__limiter_pulley
-msgid "Limiter pulley"
-msgstr "Polea limitador"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__line
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__line
-msgid "Line"
-msgstr "Linea"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__load
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__load
-msgid "Load"
-msgstr "Carga (Kgs)"
-
-#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__location
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__location
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets__location
 msgid "Location"
 msgstr "Ubicación"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields.selection,name:sat_companies_stock.selection__product_template__bench__low
-msgid "Low"
-msgstr "Baja"
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__low_mto_company
@@ -1529,28 +1409,11 @@ msgid "Manager gadgets Permission Group"
 msgstr "Grupo de permisos administrador de aparatos"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__maneuver
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__maneuver
-msgid "Maneuver"
-msgstr "Maniobra"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__maneuvering_box
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__maneuvering_box
-msgid "Maneuvering box"
-msgstr "Cuadro de maniobras"
-
-#. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_maneuvering_table
 #: model:ir.model,name:sat_companies_stock.model_stock_maneuvering_table
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_maneuvering_table
 msgid "Maneuvering table"
 msgstr "Cuadro de maniobras"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields.selection,name:sat_companies_stock.selection__product_template__landing_gate__1
-msgid "Manual"
-msgstr ""
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__is_march
@@ -1617,10 +1480,10 @@ msgid "Messages"
 msgstr "Mensajes"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__gsm_model
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__gsm_model
-msgid "Model GSM"
-msgstr "Modelo GSM"
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__model_gadget
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__model_gadget
+msgid "Model gadget"
+msgstr ""
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__months_number
@@ -1628,18 +1491,6 @@ msgstr "Modelo GSM"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets__months_number
 msgid "Months"
 msgstr "Meses"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__motor_brake
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__motor_brake
-msgid "Motor brake"
-msgstr "Freno motor"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__motor_power
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__motor_power
-msgid "Motor power"
-msgstr "Potencia motor"
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__name
@@ -1705,22 +1556,10 @@ msgid "Name increase"
 msgstr "Nombre tipo de aumento"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__is_netel_line
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__is_netel_line
-msgid "Netel line"
-msgstr "Linea Netel"
-
-#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__next_inspection
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__next_inspection
 msgid "Next inspection"
 msgstr "Próxima inspección"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__nominal_speed
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__nominal_speed
-msgid "Nominal speed"
-msgstr "Velocidad nominal (m/s)"
 
 #. module: sat_companies_stock
 #: model:ir.model.fields.selection,name:sat_companies_stock.selection__product_template__type_contract__normal
@@ -1839,18 +1678,6 @@ msgid "Number of messages with delivery error"
 msgstr ""
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__numer_people
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__numer_people
-msgid "Number of people"
-msgstr "N° personas"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__number_stops
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__number_stops
-msgid "Number of stops"
-msgstr "N° paradas"
-
-#. module: sat_companies_stock
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_bench__message_unread_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_bidirectional_model__message_unread_counter
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_cockpit_push_type__message_unread_counter
@@ -1884,12 +1711,6 @@ msgid "N° contract"
 msgstr "N° contrato"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__number_of_tubes
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__number_of_tubes
-msgid "N° tubes"
-msgstr "N° tubos"
-
-#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__partner_oca_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__partner_oca_id
 msgid "OCA"
@@ -1900,12 +1721,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__is_october
 msgid "October"
 msgstr "Octubre"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__is_operator_brake
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__is_operator_brake
-msgid "Operator brake"
-msgstr "Freno operador"
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__employee_notice_id
@@ -1999,18 +1814,6 @@ msgid "RECOPILACIÓN DATOS APARATOS"
 msgstr ""
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__is_reduced_flight
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__is_reduced_flight
-msgid "Reduced flight"
-msgstr "Huida reducida"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__is_reduced_pit
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__is_reduced_pit
-msgid "Reduced pit"
-msgstr "Foso reducido"
-
-#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__ref
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__ref
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets__ref
@@ -2062,11 +1865,6 @@ msgid "SMS Delivery error"
 msgstr ""
 
 #. module: sat_companies_stock
-#: model:ir.model.fields.selection,name:sat_companies_stock.selection__product_template__landing_gate__3
-msgid "Semiautomatic"
-msgstr "Semiautomática"
-
-#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__is_september
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__is_september
 msgid "September"
@@ -2075,22 +1873,13 @@ msgstr "Septiembre"
 #. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_stock_shipment
 #: model:ir.model,name:sat_companies_stock.model_stock_shipment
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__shipment
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__shipment
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_shipment
 msgid "Shipment"
 msgstr "Embarque"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields.selection,name:sat_companies_stock.selection__product_template__shipment__simple
-msgid "Simple"
-msgstr ""
-
-#. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_stock_soil_type
 #: model:ir.model,name:sat_companies_stock.model_stock_soil_type
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__soil_type_id
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__soil_type_id
 #: model:ir.ui.menu,name:sat_companies_stock.menu_soil_type
 msgid "Soil type"
 msgstr "Tipo suelo"
@@ -2130,12 +1919,6 @@ msgid "Technical data"
 msgstr "Datos Técnicos"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__tensioner_pulley
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__tensioner_pulley
-msgid "Tensioner pulley"
-msgstr "Polea tensora"
-
-#. module: sat_companies_stock
 #: code:addons/sat_companies_stock/models/.ipynb_checkpoints/product-checkpoint.py:0
 #: code:addons/sat_companies_stock/models/product.py:0
 #: code:addons/sat_companies_stock/models/stock_gadgets.py:0
@@ -2158,33 +1941,10 @@ msgid "The number of stops cannot lesser cero! : %s"
 msgstr "El número de paradas no puede ser negativo!"
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__is_timed_cabin_light
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__is_timed_cabin_light
-msgid "Timed cabin light"
-msgstr "Luz temporizada cabina"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__traction_cables
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__traction_cables
-msgid "Traction cables"
-msgstr "Cables tracción"
-
-#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__tractor_group
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__tractor_group
 msgid "Tractor group"
 msgstr "Grupo tractor"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__tractor_pulley
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__tractor_pulley
-msgid "Tractor pulley"
-msgstr "Polea tractora (cm)"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields.selection,name:sat_companies_stock.selection__product_template__shipment__triple
-msgid "Triple"
-msgstr ""
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__ref_type
@@ -2309,8 +2069,6 @@ msgstr ""
 #. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_wash_cabin
 #: model:ir.model,name:sat_companies_stock.model_stock_wash_cabin
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__wash_cabin
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__wash_cabin
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_wash_cabin
 msgid "Wash cabin"
 msgstr "Llavín cabina"
@@ -2368,12 +2126,6 @@ msgid "Website communication history"
 msgstr ""
 
 #. module: sat_companies_stock
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__is_weighing_scales
-#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__is_weighing_scales
-msgid "Weighing scales"
-msgstr "Pesacargas"
-
-#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__years
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__years_number
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__years
@@ -2401,16 +2153,6 @@ msgstr "Zona"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__zone_name
 msgid "Zone name"
 msgstr "Nombre de la zona"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields.selection,name:sat_companies_stock.selection__product_template__line__1
-msgid "fixed"
-msgstr "Fija"
-
-#. module: sat_companies_stock
-#: model:ir.model.fields.selection,name:sat_companies_stock.selection__product_template__line__2
-msgid "movil"
-msgstr "Móvil"
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__next_inspection_date
