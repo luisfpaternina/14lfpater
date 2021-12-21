@@ -383,6 +383,13 @@ class ProductTemplate(models.Model):
     cabin_tubes_type_id = fields.Many2one(
         'stock.types.cabin.tubes',
         string="Cabin tubes types")
+    traction_pulley = fields.Char(
+        string="Traction pulley(cm)")
+    tensioner_pulley = fields.Char(
+        string="Tensioner pulley(cm)")
+    limiter_pulley = fields.Char(
+        string="Limiter pulley(cm)")
+    deflection_pulley = fields.Char(string="Deflection pulley(cm)")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
