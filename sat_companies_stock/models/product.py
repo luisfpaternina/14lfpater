@@ -326,6 +326,10 @@ class ProductTemplate(models.Model):
         string="Stops numbers")
     people_numbers = fields.Char(
         string="People numbers")
+    gadget_load = fields.Char(
+        string="Load(Kgs)")
+    nominal_speed = fields.Char(
+        string="Nominal speed(m/s)")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
