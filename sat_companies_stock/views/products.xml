@@ -206,7 +206,8 @@
                             <field name="people_numbers"/>
                         </group>
                         <group>
-                            
+                            <field name="gadget_load"/>
+                            <field name="nominal_speed"/>
                         </group>
                     </group>
                 </page>
