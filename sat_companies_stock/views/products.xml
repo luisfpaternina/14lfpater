@@ -232,6 +232,8 @@
                         <group>
                             <field name="maneuver"/>
                             <field name="maneuvering_table_id" options="{'no_create': True, 'no_create_edit':True}"/>
+                            <field name="operator_strap"/>
+                            <field name="is_operator_brake"/>
                         </group>
                         <group>
                             
