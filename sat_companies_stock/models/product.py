@@ -399,6 +399,9 @@ class ProductTemplate(models.Model):
         string="Is cabin puffer")
     is_counterweight_puffer = fields.Boolean(
         string="Is counterweight puffer")
+    bidirectional_model_id = fields.Many2one(
+        'stock.bidirectional.model',
+        string="Bidirectional model")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
