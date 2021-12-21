@@ -23,3 +23,4 @@ from . import stock_maneuvering_table
 from . import stock_types_cabin_tubes
 from . import stock_bidirectional_model
 from . import stock_gsm_model
+from . import stock_landing_key
