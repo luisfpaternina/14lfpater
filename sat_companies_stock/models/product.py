@@ -318,6 +318,8 @@ class ProductTemplate(models.Model):
     bench_id = fields.Many2one(
         'stock.bench',
         string="Bench")
+    motor_power = fields.Char(
+        string="Motor power(KW)")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
