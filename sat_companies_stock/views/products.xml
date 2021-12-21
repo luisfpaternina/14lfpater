@@ -248,7 +248,8 @@
                             <field name="is_counterweight_wedging"/>
                         </group>
                         <group>
-                            
+                            <field name="bidirectional_model_id" options="{'no_create': True, 'no_create_edit':True}"/>
+                            <field name="gsm_model_id" options="{'no_create': True, 'no_create_edit':True}"/>
                         </group>
                         <group>
                             
