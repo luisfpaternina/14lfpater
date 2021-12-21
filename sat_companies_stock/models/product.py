@@ -369,6 +369,8 @@ class ProductTemplate(models.Model):
         string="Landing key")
     traction_cables = fields.Char(
         string="Traction cables")
+    maneuver = fields.Char(
+        string="Maneuver")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
