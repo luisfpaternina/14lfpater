@@ -236,7 +236,8 @@
                             <field name="is_operator_brake"/>
                         </group>
                         <group>
-                            
+                            <field name="is_cabin_timed_light"/>
+                            <field name="cabin_tubes_type_id" options="{'no_create': True, 'no_create_edit':True}"/>
                         </group>
                         <group>
                             
