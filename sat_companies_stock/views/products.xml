@@ -197,6 +197,13 @@
                             <field name="is_machine_room"/>
                             <field name="model_gadget"/>
                             <field name="tractor_group"/>
+                            <field name="bench_id" options="{'no_create': True, 'no_create_edit':True}"/>
+                        </group>
+                        <group>
+                            <field name="motor_power"/>
+                        </group>
+                        <group>
+                            
                         </group>
                     </group>
                 </page>
