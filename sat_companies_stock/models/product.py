@@ -389,7 +389,12 @@ class ProductTemplate(models.Model):
         string="Tensioner pulley(cm)")
     limiter_pulley = fields.Char(
         string="Limiter pulley(cm)")
-    deflection_pulley = fields.Char(string="Deflection pulley(cm)")
+    deflection_pulley = fields.Char(
+        string="Deflection pulley(cm)")
+    is_wedging_cabin = fields.Boolean(
+        string="Is wedging cabin")
+    is_counterweight_wedging = fields.Boolean(
+        string="Is counterweight wedging")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
