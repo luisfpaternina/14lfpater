@@ -315,6 +315,9 @@ class ProductTemplate(models.Model):
         default=lambda self: self.env.user.company_id)
     model_gadget = fields.Char(
         string="Model gadget")
+    bench_id = fields.Many2one(
+        'stock.bench',
+        string="Bench")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
