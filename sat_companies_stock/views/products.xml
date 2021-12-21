@@ -238,9 +238,12 @@
                         <group>
                             <field name="is_cabin_timed_light"/>
                             <field name="cabin_tubes_type_id" options="{'no_create': True, 'no_create_edit':True}"/>
+                            <field name="traction_pulley"/>
+                            <field name="tensioner_pulley"/>
                         </group>
                         <group>
-                            
+                            <field name="limiter_pulley"/>
+                            <field name="deflection_pulley"/>
                         </group>
                     </group>
                 </page>
