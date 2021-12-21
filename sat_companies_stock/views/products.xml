@@ -208,6 +208,14 @@
                         <group>
                             <field name="gadget_load"/>
                             <field name="nominal_speed"/>
+                            <field name="route"/>
+                            <field name="reduced_pit"/>
+                        </group>
+                        <group>
+                            <field name="reduced_flight"/>
+                        </group>
+                        <group>
+                            
                         </group>
                     </group>
                 </page>
