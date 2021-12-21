@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 10:33+0000\n"
-"PO-Revision-Date: 2021-12-21 10:33+0000\n"
+"POT-Creation-Date: 2021-12-21 10:48+0000\n"
+"PO-Revision-Date: 2021-12-21 10:48+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -560,9 +560,17 @@ msgstr "Tipo botonera cabina"
 #. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_stock_cockpit_push_type
 #: model:ir.model,name:sat_companies_stock.model_stock_cockpit_push_type
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__cockpit_push_type_id
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__cockpit_push_type_id
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_cockpit_push_type
 msgid "Cockpit push type"
 msgstr "Tipo pulsador cabina"
+
+#. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__cockpit_type_id
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__cockpit_type_id
+msgid "Cockpit type"
+msgstr ""
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__code
@@ -1232,7 +1240,6 @@ msgstr "Tipo botonera rellano"
 #. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_landing_lock
 #: model:ir.model,name:sat_companies_stock.model_stock_landing_lock
-#: model:ir.ui.menu,name:sat_companies_stock.menu_stock_landing_lock
 msgid "Landing lock"
 msgstr "Tipo cerradura rellano"
 
@@ -1967,6 +1974,11 @@ msgstr "Fecha puesta en marcha"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets__state_gadget
 msgid "State"
 msgstr "Estado"
+
+#. module: sat_companies_stock
+#: model:ir.ui.menu,name:sat_companies_stock.menu_stock_landing_lock
+msgid "Stock landing lock"
+msgstr "Tipo cerradura rellano"
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__stop_numbers
