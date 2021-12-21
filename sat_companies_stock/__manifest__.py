@@ -51,6 +51,7 @@
         'views/stock_type_cabin_tubes.xml',
         'views/stock_bidirectional_model.xml',
         'views/stock_gsm_model.xml',
+        'views/stock_landing_key.xml',
         'reports/technical_data_template.xml',
         
     ],
