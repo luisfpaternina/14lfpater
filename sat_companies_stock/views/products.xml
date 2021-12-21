@@ -250,6 +250,8 @@
                         <group>
                             <field name="bidirectional_model_id" options="{'no_create': True, 'no_create_edit':True}"/>
                             <field name="gsm_model_id" options="{'no_create': True, 'no_create_edit':True}"/>
+                            <field name="line"/>
+                            <field name="is_netel_line"/>
                         </group>
                         <group>
                             
