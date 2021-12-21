@@ -336,6 +336,14 @@ class ProductTemplate(models.Model):
         string="Reduced pit")
     reduced_flight = fields.Char(
         string="Reduced flight")
+    gate_operator = fields.Char(
+        string="Gate operator")
+    shipment_id = fields.Many2one(
+        'stock.shipment',
+        string="Shipment")
+    soil_type_id = fields.Many2one(
+        'stock.soil.type',
+        string="Soil type")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
