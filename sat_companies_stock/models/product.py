@@ -378,6 +378,11 @@ class ProductTemplate(models.Model):
         string="Operator strap")
     is_operator_brake = fields.Boolean(
         string="Is operator brake")
+    is_cabin_timed_light = fields.Boolean(
+        string="Is cabin timed light")
+    cabin_tubes_type_id = fields.Many2one(
+        'stock.types.cabin.tubes',
+        string="Cabin tubes types")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
