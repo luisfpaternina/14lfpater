@@ -244,6 +244,8 @@
                         <group>
                             <field name="limiter_pulley"/>
                             <field name="deflection_pulley"/>
+                            <field name="is_wedging_cabin"/>
+                            <field name="is_counterweight_wedging"/>
                         </group>
                     </group>
                 </page>
