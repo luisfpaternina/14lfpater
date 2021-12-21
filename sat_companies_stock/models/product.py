@@ -371,6 +371,9 @@ class ProductTemplate(models.Model):
         string="Traction cables")
     maneuver = fields.Char(
         string="Maneuver")
+    maneuvering_table_id = fields.Many2one(
+        'stock.maneuvering.table',
+        string="Maneuvering table")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
