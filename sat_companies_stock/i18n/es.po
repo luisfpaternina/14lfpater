@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 09:38+0000\n"
-"PO-Revision-Date: 2021-12-21 09:38+0000\n"
+"POT-Creation-Date: 2021-12-21 09:47+0000\n"
+"PO-Revision-Date: 2021-12-21 09:47+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -784,6 +784,12 @@ msgid "End guarantee"
 msgstr "Fin garantía"
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__engine_brake
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__engine_brake
+msgid "Engine brake"
+msgstr "Freno motor"
+
+#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__extended_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__extended_date
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets__extended_date
@@ -846,7 +852,7 @@ msgstr "Seguidores"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_types_cabin_tubes__message_channel_ids
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_wash_cabin__message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "Seguidores canal"
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_bench__message_partner_ids
@@ -1095,7 +1101,7 @@ msgstr ""
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_wash_cabin__message_has_error
 #: model:ir.model.fields,help:sat_companies_stock.field_stock_wash_cabin__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Algunos mensajes tienen error en la entrega"
 
 #. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_stock_gadgets_increase_type
@@ -1744,6 +1750,12 @@ msgid "Pending date to be corrected"
 msgstr ""
 
 #. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__people_numbers
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__people_numbers
+msgid "People numbers"
+msgstr "N° personas"
+
+#. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__planning_type_id
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__planning_type_id
 msgid "Planning type"
@@ -1915,6 +1927,12 @@ msgstr "Fecha puesta en marcha"
 #: model:ir.model.fields,field_description:sat_companies_stock.field_stock_gadgets__state_gadget
 msgid "State"
 msgstr "Estado"
+
+#. module: sat_companies_stock
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__stop_numbers
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__stop_numbers
+msgid "Stops numbers"
+msgstr "N° paradas"
 
 #. module: sat_companies_stock
 #: model:ir.model,name:sat_companies_stock.model_sale_subscription
