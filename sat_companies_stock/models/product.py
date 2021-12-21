@@ -374,6 +374,10 @@ class ProductTemplate(models.Model):
     maneuvering_table_id = fields.Many2one(
         'stock.maneuvering.table',
         string="Maneuvering table")
+    operator_strap = fields.Char(
+        string="Operator strap")
+    is_operator_brake = fields.Boolean(
+        string="Is operator brake")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
