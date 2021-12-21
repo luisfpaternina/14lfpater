@@ -201,6 +201,7 @@
                         </group>
                         <group>
                             <field name="motor_power"/>
+                            <field name="engine_brake"/>
                         </group>
                         <group>
                             

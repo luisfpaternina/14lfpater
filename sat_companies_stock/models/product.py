@@ -320,6 +320,8 @@ class ProductTemplate(models.Model):
         string="Bench")
     motor_power = fields.Char(
         string="Motor power(KW)")
+    engine_brake = fields.Char(
+        string="Engine brake")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
