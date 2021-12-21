@@ -350,6 +350,11 @@ class ProductTemplate(models.Model):
     cockpit_push_type_id = fields.Many2one(
         'stock.cockpit.push.type',
         string="Cockpit push type")
+    wash_cabin_id = fields.Many2one(
+        'stock.wash.cabin',
+        string="Wash cabin")
+    is_weigher = fields.Boolean(
+        string="Is weigher")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
