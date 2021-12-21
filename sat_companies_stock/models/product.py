@@ -330,6 +330,12 @@ class ProductTemplate(models.Model):
         string="Load(Kgs)")
     nominal_speed = fields.Char(
         string="Nominal speed(m/s)")
+    route = fields.Char(
+        string="Route of gadget")
+    reduced_pit = fields.Char(
+        string="Reduced pit")
+    reduced_flight = fields.Char(
+        string="Reduced flight")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
