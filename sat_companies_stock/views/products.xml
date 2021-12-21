@@ -227,9 +227,10 @@
                             <field name="landing_doors_id" options="{'no_create': True, 'no_create_edit':True}"/>
                             <field name="landing_keypad_id" options="{'no_create': True, 'no_create_edit':True}"/>
                             <field name="landing_key_id" options="{'no_create': True, 'no_create_edit':True}"/>
+                            <field name="traction_cables"/>
                         </group>
                         <group>
-                            
+                            <field name="maneuver"/>
                         </group>
                     </group>
                 </page>
