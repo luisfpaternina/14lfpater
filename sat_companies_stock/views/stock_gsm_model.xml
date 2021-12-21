@@ -60,7 +60,7 @@
         <menuitem 
             id="menu_stock_gsm_model" 
             name="GSM model" 
-            parent="sat_companies_stock.menu_gadgets"
+            parent="sat_companies_stock.menu_technical_data"
             action="action_view_gsm_model"
             sequence="90"
             />

@@ -60,7 +60,7 @@
         <menuitem 
             id="menu_stock_cockpit_push_type" 
             name="Cockpit push type" 
-            parent="sat_companies_stock.menu_gadgets"
+            parent="sat_companies_stock.menu_technical_data"
             action="action_stock_cockpit_push_type"
             sequence="93"
             />

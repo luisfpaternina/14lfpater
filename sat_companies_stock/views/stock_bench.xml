@@ -60,7 +60,7 @@
         <menuitem 
             id="menu_stock_bench" 
             name="Bench" 
-            parent="sat_companies_stock.menu_gadgets"
+            parent="sat_companies_stock.menu_technical_data"
             action="action_view_stock_bench"
             sequence="98"
             />

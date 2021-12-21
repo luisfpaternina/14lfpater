@@ -60,7 +60,7 @@
         <menuitem 
             id="menu_stock_types_cabin_tubes" 
             name="Types cabin tubes" 
-            parent="sat_companies_stock.menu_gadgets"
+            parent="sat_companies_stock.menu_technical_data"
             action="action_view_types_cabin_tubes"
             sequence="90"
             />

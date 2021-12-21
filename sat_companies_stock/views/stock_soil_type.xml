@@ -60,7 +60,7 @@
         <menuitem 
             id="menu_soil_type" 
             name="Soil type" 
-            parent="sat_companies_stock.menu_gadgets"
+            parent="sat_companies_stock.menu_technical_data"
             action="action_view_stock_soil_type"
             sequence="90"
             />

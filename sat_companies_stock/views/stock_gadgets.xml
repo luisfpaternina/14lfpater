@@ -62,5 +62,13 @@
             sequence="70"
             />
 
+        <menuitem 
+            id="menu_technical_data" 
+            name="Technical data" 
+            parent="stock.menu_stock_config_settings"
+            action="action_view_stock_gadgets"
+            sequence="71"
+            />
+
     </data>
 </odoo> 

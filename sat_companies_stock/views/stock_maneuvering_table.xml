@@ -60,7 +60,7 @@
         <menuitem 
             id="menu_stock_maneuvering_table" 
             name="Maneuvering table" 
-            parent="sat_companies_stock.menu_gadgets"
+            parent="sat_companies_stock.menu_technical_data"
             action="action_view_maneuvering_table"
             sequence="90"
             />

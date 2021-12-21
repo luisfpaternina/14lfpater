@@ -60,7 +60,7 @@
         <menuitem 
             id="menu_stock_landing_doors" 
             name="Landing doors" 
-            parent="sat_companies_stock.menu_gadgets"
+            parent="sat_companies_stock.menu_technical_data"
             action="action_view_landing_doors"
             sequence="90"
             />

@@ -60,7 +60,7 @@
         <menuitem 
             id="menu_stock_wash_cabin" 
             name="Wash cabin" 
-            parent="sat_companies_stock.menu_gadgets"
+            parent="sat_companies_stock.menu_technical_data"
             action="action_view_wash_cabin"
             sequence="90"
             />

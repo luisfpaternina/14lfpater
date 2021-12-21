@@ -60,7 +60,7 @@
         <menuitem 
             id="menu_elevator_type" 
             name="Elevator type" 
-            parent="sat_companies_stock.menu_gadgets"
+            parent="sat_companies_stock.menu_technical_data"
             action="action_view_stock_elevator_type"
             sequence="89"
             />

@@ -60,7 +60,7 @@
         <menuitem 
             id="menu_stock_landing_key" 
             name="Landing key" 
-            parent="sat_companies_stock.menu_gadgets"
+            parent="sat_companies_stock.menu_technical_data"
             action="action_view_landing_keypad"
             sequence="90"
             />
