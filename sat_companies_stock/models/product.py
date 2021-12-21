@@ -364,6 +364,9 @@ class ProductTemplate(models.Model):
     landing_lock_id = fields.Many2one(
         'stock.landing.lock',
         string="Landing lock type")
+    landing_key_id = fields.Many2one(
+        'stock.landing.key',
+        string="Landing key")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
