@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 12:30+0000\n"
-"PO-Revision-Date: 2021-12-21 12:30+0000\n"
+"POT-Creation-Date: 2021-12-21 12:43+0000\n"
+"PO-Revision-Date: 2021-12-21 12:43+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1487,6 +1487,8 @@ msgstr "Maniobra"
 #. module: sat_companies_stock
 #: model:ir.actions.act_window,name:sat_companies_stock.action_view_maneuvering_table
 #: model:ir.model,name:sat_companies_stock.model_stock_maneuvering_table
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__maneuvering_table_id
+#: model:ir.model.fields,field_description:sat_companies_stock.field_product_template__maneuvering_table_id
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_maneuvering_table
 msgid "Maneuvering table"
 msgstr "Cuadro de maniobras"
