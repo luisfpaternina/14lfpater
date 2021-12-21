@@ -344,6 +344,12 @@ class ProductTemplate(models.Model):
     soil_type_id = fields.Many2one(
         'stock.soil.type',
         string="Soil type")
+    cockpit_type_id = fields.Many2one(
+        'stock.cockpit.type',
+        string="Cockpit type")
+    cockpit_push_type_id = fields.Many2one(
+        'stock.cockpit.push.type',
+        string="Cockpit push type")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
