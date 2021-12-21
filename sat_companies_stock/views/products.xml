@@ -232,6 +232,12 @@
                         <group>
                             <field name="maneuver"/>
                         </group>
+                        <group>
+                            
+                        </group>
+                        <group>
+                            
+                        </group>
                     </group>
                 </page>
             </xpath>
