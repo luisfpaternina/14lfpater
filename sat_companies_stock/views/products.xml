@@ -247,6 +247,12 @@
                             <field name="is_wedging_cabin"/>
                             <field name="is_counterweight_wedging"/>
                         </group>
+                        <group>
+                            
+                        </group>
+                        <group>
+                            
+                        </group>
                     </group>
                 </page>
             </xpath>

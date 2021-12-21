@@ -395,6 +395,10 @@ class ProductTemplate(models.Model):
         string="Is wedging cabin")
     is_counterweight_wedging = fields.Boolean(
         string="Is counterweight wedging")
+    is_cabin_puffer = fields.Boolean(
+        string="Is cabin puffer")
+    is_counterweight_puffer = fields.Boolean(
+        string="Is counterweight puffer")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
