@@ -223,6 +223,12 @@
                             <field name="wash_cabin_id" options="{'no_create': True, 'no_create_edit':True}"/>
                             <field name="is_weigher"/>
                         </group>
+                        <group>
+                            
+                        </group>
+                        <group>
+                            
+                        </group>
                     </group>
                 </page>
             </xpath>

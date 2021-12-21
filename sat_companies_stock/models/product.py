@@ -355,6 +355,12 @@ class ProductTemplate(models.Model):
         string="Wash cabin")
     is_weigher = fields.Boolean(
         string="Is weigher")
+    landing_doors_id = fields.Many2one(
+        'stock.landing.doors',
+        string="Landing doors")
+    landing_keypad_id = fields.Many2one(
+        'stock.landing.keypad',
+        string="Landing keypad")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
