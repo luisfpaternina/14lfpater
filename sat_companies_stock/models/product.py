@@ -402,6 +402,9 @@ class ProductTemplate(models.Model):
     bidirectional_model_id = fields.Many2one(
         'stock.bidirectional.model',
         string="Bidirectional model")
+    gsm_model_id = fields.Many2one(
+        'stock.gsm.model',
+        string="GSM model")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
