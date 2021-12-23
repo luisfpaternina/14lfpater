@@ -405,8 +405,9 @@ class ProductTemplate(models.Model):
     gsm_model_id = fields.Many2one(
         'stock.gsm.model',
         string="GSM model")
-    line = fields.Char(
-        string="Line")
+    line = fields.Selection([
+        ('1','Fija'),
+        ('2','Movil')],string="Line")
     is_netel_line = fields.Boolean(
         string="Is netel line")
     tension = fields.Integer(
