@@ -2115,7 +2115,7 @@ msgstr "Estado"
 #. module: sat_companies_stock
 #: model:ir.ui.menu,name:sat_companies_stock.menu_stock_landing_lock
 msgid "Stock landing lock"
-msgstr "Llavín cabina"
+msgstr "Tipo cerradura rellano"
 
 #. module: sat_companies_stock
 #: model:ir.model.fields,field_description:sat_companies_stock.field_product_product__stop_numbers
