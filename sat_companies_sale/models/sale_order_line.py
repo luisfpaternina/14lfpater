@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+from odoo import models, fields, api, _
+from odoo.exceptions import ValidationError
+import base64
+import logging
+
+
+class SaleOrder(models.Model):
+    _inherit = 'sale.order.line'
+
+    rae = fields.Char(
+        string="R.A.E.",
+        tracking=True)
+
+    ref = fields.Char(
+        string="Reference",
+        tracking=True)
+
+    maneuver = fields.Char(
+        string="Maneuver")
+    
+    elevator_type_id = fields.Many2one(
+        'stock.elevator.type',
+        string="Elevator type")
+
+    people_numbers = fields.Char(
+        string="People numbers")
+
+    gadget_load = fields.Char(
+        string="Load(Kgs)")
+
+    nominal_speed = fields.Char(
+        string="Nominal speed(m/s)")
+
+    check_is_gadget = fields.Boolean(related='product_id.is_gadget')
+
+
