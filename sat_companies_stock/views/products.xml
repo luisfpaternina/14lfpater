@@ -227,6 +227,7 @@
                             <field name="landing_doors_id" options="{'no_create': True, 'no_create_edit':True}"/>
                             <field name="landing_keypad_id" options="{'no_create': True, 'no_create_edit':True}"/>
                             <field name="landing_key_id" options="{'no_create': True, 'no_create_edit':True}"/>
+                            <field name="landing_lock_id" options="{'no_create': True, 'no_create_edit':True}"/>
                             <field name="traction_cables"/>
                         </group>
                         <group>
