@@ -332,9 +332,9 @@ class ProductTemplate(models.Model):
         string="Nominal speed(m/s)")
     route = fields.Char(
         string="Route of gadget")
-    reduced_pit = fields.Char(
+    reduced_pit = fields.Boolean(
         string="Reduced pit")
-    reduced_flight = fields.Char(
+    reduced_flight = fields.Boolean(
         string="Reduced flight")
     gate_operator = fields.Char(
         string="Gate operator")
