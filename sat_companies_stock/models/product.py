@@ -332,9 +332,9 @@ class ProductTemplate(models.Model):
         string="Nominal speed(m/s)")
     route = fields.Char(
         string="Route of gadget")
-    reduced_pit = fields.Char(
+    reduced_pit = fields.Boolean(
         string="Reduced pit")
-    reduced_flight = fields.Char(
+    reduced_flight = fields.Boolean(
         string="Reduced flight")
     gate_operator = fields.Char(
         string="Gate operator")
@@ -409,6 +409,8 @@ class ProductTemplate(models.Model):
         string="Line")
     is_netel_line = fields.Boolean(
         string="Is netel line")
+    tension = fields.Integer(
+        string="Tension")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
