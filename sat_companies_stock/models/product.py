@@ -409,6 +409,8 @@ class ProductTemplate(models.Model):
         string="Line")
     is_netel_line = fields.Boolean(
         string="Is netel line")
+    tension = fields.Integer(
+        string="Tension")
     qr_pit = fields.Binary(
         'Dowload Qr Image Pit',
         compute="_generate_qr_code")
