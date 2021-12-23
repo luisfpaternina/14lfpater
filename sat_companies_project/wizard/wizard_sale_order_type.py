@@ -11,6 +11,7 @@ class WizardSaleOrderType(models.TransientModel):
     add_task_line = fields.Boolean('Add Task line ?')
     project_id = fields.Many2one('project.project', 'Project')
     project_line_ids = fields.Many2many('sale.order.line')
+    duplicate_task = fields.Boolean('Duplicate Task')
 
     def accept_task_type_sale(self):
         for record in self:
@@ -37,6 +38,14 @@ class WizardSaleOrderType(models.TransientModel):
                         'ot_type_id': record.sale_type_id.id,
                         'is_fsm': True
                     })
+
+                if record.duplicate_task== True:
+                    for line in record.project_line_ids:
+                        self.env['project.task'].create({
+                            'name': record.name+' - '+line.product_id.name+'TAREA DE LINEA DUPLICADA',
+                            'partner_id': record.sale_order_id.partner_id.id,
+                            'ot_type_id': record.sale_type_id.id,
+                        })
                 
                 
             record.sale_order_id.action_confirm()
