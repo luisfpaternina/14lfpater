@@ -254,7 +254,8 @@
                             <field name="is_netel_line"/>
                         </group>
                         <group>
-                            
+                            <field name="is_cabin_puffer"/>
+                            <field name="is_counterweight_puffer"/>
                         </group>
                     </group>
                 </page>
