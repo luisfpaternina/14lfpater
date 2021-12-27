@@ -24,7 +24,7 @@
 
             <xpath expr="//field[(@name='partner_id')]" position="after">
                 <field name="is_forecast_made"/>
-            <xpath>
+            </xpath>
 
             <xpath expr="//form/sheet/notebook/page[(@name='customer_signature')]" position="after">
                 <page string="Contract" name="type_service_contract">
@@ -49,7 +49,7 @@
                 <field name="gadget_load" attrs="{'invisible': [('check_is_gadget', '!=', True)]}"/>
                 <field name="nominal_speed" attrs="{'invisible': [('check_is_gadget', '!=', True)]}"/>
             </xpath>
-            
+
         </field> 
     </record>
 </odoo>
