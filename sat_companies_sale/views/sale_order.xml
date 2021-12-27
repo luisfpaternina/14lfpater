@@ -24,7 +24,7 @@
                 <field name="sale_type_id" options="{'no_create': True, 'no_create_edit':True}" required="1"/>
                 <field name="type_contract" attrs="{'invisible': [('check_contract_type', '!=', True)]}"/>
                 <field name="pdf_file_sale_contract"/>
-                <field name="is_forecast_made"/>
+                <field name="is_forecast_made" groups="sat_companies_sale.sale_forecast_manager_group"/>
             </xpath>
 
             <xpath expr="//form/sheet/notebook/page[(@name='customer_signature')]" position="after">
