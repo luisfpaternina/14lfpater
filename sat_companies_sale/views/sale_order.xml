@@ -21,6 +21,11 @@
                 <field name="type_contract" attrs="{'invisible': [('check_contract_type', '!=', True)]}"/>
                 <field name="pdf_file_sale_contract"/>
             </xpath>
+
+            <xpath expr="//field[(@name='partner_id')]" position="after">
+                <field name="is_forecast_made"/>
+            <xpath>
+
             <xpath expr="//form/sheet/notebook/page[(@name='customer_signature')]" position="after">
                 <page string="Contract" name="type_service_contract">
                     <group>
@@ -33,6 +38,7 @@
                     </group>
                 </page>
             </xpath>
+
             <xpath expr="//form/sheet/notebook/page[(@name='order_lines')]/field[1]/tree[1]/field[(@name='product_template_id')]" position="after">
                 <field name="check_is_gadget" invisible="True"/>
                 <field name="rae" attrs="{'invisible': [('check_is_gadget', '!=', True)]}"/>
@@ -43,6 +49,7 @@
                 <field name="gadget_load" attrs="{'invisible': [('check_is_gadget', '!=', True)]}"/>
                 <field name="nominal_speed" attrs="{'invisible': [('check_is_gadget', '!=', True)]}"/>
             </xpath>
+            
         </field> 
     </record>
 </odoo>
