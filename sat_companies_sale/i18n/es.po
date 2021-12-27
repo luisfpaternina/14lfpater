@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 09:55+0000\n"
-"PO-Revision-Date: 2021-12-27 09:55+0000\n"
+"POT-Creation-Date: 2021-12-27 11:51+0000\n"
+"PO-Revision-Date: 2021-12-27 11:51+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -458,9 +458,19 @@ msgid "Manager oportunity type Permission Group"
 msgstr "Administrador grupo de permisos tipo de oportunidad"
 
 #. module: sat_companies_sale
+#: model:res.groups,name:sat_companies_sale.sale_forecast_manager_group
+msgid "Manager sale forecast"
+msgstr "Responsable técnico"
+
+#. module: sat_companies_sale
+#: model:res.groups,comment:sat_companies_sale.sale_forecast_manager_group
+msgid "Manager sale forecast Permission Group"
+msgstr "Administrador/Responsable técnico"
+
+#. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_sale_order_line__maneuver
 msgid "Maneuver"
-msgstr ""
+msgstr "Maniobra"
 
 #. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_crm_lead_type__message_has_error
@@ -564,17 +574,17 @@ msgstr "Tipo de oportunidad"
 #. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_sale_order__pdf_file_sale_contract
 msgid "Pdf File Sale Contract"
-msgstr ""
+msgstr "PDF contrato"
 
 #. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_sale_order_line__people_numbers
 msgid "People numbers"
-msgstr ""
+msgstr "Número de personas"
 
 #. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_sale_order__population_id
 msgid "Population"
-msgstr ""
+msgstr "Poblración"
 
 #. module: sat_companies_sale
 #: model:ir.model.fields.selection,name:sat_companies_sale.selection__crm_lead__managed_by__president
@@ -599,18 +609,18 @@ msgstr ""
 #. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_sale_order_line__ref
 msgid "Reference"
-msgstr ""
+msgstr "Referencia"
 
 #. module: sat_companies_sale
 #: model:ir.model.fields.selection,name:sat_companies_sale.selection__sale_order__sale_type__repair
 msgid "Repair"
-msgstr ""
+msgstr "Reparar"
 
 #. module: sat_companies_sale
 #: model_terms:ir.ui.view,arch_db:sat_companies_sale.report_contract_sale
 #: model_terms:ir.ui.view,arch_db:sat_companies_sale.sale_contract_report
 msgid "Report title"
-msgstr ""
+msgstr "Título del reporte"
 
 #. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_crm_lead_type__message_has_sms_error
@@ -621,7 +631,7 @@ msgstr "Error en la entrega"
 #: model:ir.model.fields,field_description:sat_companies_sale.field_sale_check_type_contract__order_id
 #: model:ir.model.fields,field_description:sat_companies_sale.field_sale_type_service__order_id
 msgid "Sale Order"
-msgstr ""
+msgstr "Pedido"
 
 #. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_crm_lead__sale_type_id
@@ -647,7 +657,7 @@ msgstr ""
 #. module: sat_companies_sale
 #: model_terms:ir.ui.view,arch_db:sat_companies_sale.view_sale_order_inherit_sat_companies_sale
 msgid "Send Email to Contact"
-msgstr ""
+msgstr "Enviar correo con contrato"
 
 #. module: sat_companies_sale
 #: model_terms:ir.ui.view,arch_db:sat_companies_sale.sale_contract_report
@@ -657,7 +667,7 @@ msgstr ""
 #. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_sale_order__signature_url_text
 msgid "Signature URL"
-msgstr ""
+msgstr "URL de firma"
 
 #. module: sat_companies_sale
 #: model:ir.model.fields.selection,name:sat_companies_sale.selection__crm_lead__client_type__family_home
@@ -667,12 +677,12 @@ msgstr "Viviendas Particulares Unifamiliares"
 #. module: sat_companies_sale
 #: model_terms:ir.ui.view,arch_db:sat_companies_sale.sale_contract_report
 msgid "Submit File"
-msgstr ""
+msgstr "Enviar archivo"
 
 #. module: sat_companies_sale
 #: model_terms:ir.ui.view,arch_db:sat_companies_sale.sale_contract_report
 msgid "Submit Signature"
-msgstr ""
+msgstr "Enviar firma"
 
 #. module: sat_companies_sale
 #: model:ir.model,name:sat_companies_sale.model_sale_subscription
@@ -687,7 +697,7 @@ msgstr "Plantilla de suscripción"
 #. module: sat_companies_sale
 #: model:mail.template,subject:sat_companies_sale.sale_contract_mail_template
 msgid "TEST"
-msgstr ""
+msgstr "PRUEBA"
 
 #. module: sat_companies_sale
 #: code:addons/sat_companies_sale/models/.ipynb_checkpoints/sale_order-checkpoint.py:0
@@ -710,17 +720,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:sat_companies_sale.field_sale_check_type_contract__type_service_id
 #: model:ir.ui.menu,name:sat_companies_sale.menu_sale_type_service
 msgid "Type Service"
-msgstr ""
+msgstr "Tipo de servicio"
 
 #. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_sale_subscription__type_contract
 msgid "Type of contract"
-msgstr ""
+msgstr "Tipo de contrato"
 
 #. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_sale_order__type_service_id
 msgid "Type service"
-msgstr ""
+msgstr "Tipo de servicio"
 
 #. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_crm_lead_type__message_unread
@@ -735,7 +745,7 @@ msgstr ""
 #. module: sat_companies_sale
 #: model_terms:ir.ui.view,arch_db:sat_companies_sale.sale_contract_report
 msgid "Upload File"
-msgstr ""
+msgstr "Cargar archivo"
 
 #. module: sat_companies_sale
 #: model:ir.model.fields,field_description:sat_companies_sale.field_crm_lead_type__website_message_ids
@@ -755,7 +765,7 @@ msgstr ""
 #. module: sat_companies_sale
 #: model_terms:ir.ui.view,arch_db:sat_companies_sale.sale_contract_report
 msgid "Well done!"
-msgstr ""
+msgstr "Bien hecho!"
 
 #. module: sat_companies_sale
 #: model_terms:ir.ui.view,arch_db:sat_companies_sale.view_crm_lead_type_form
