@@ -7,5 +7,10 @@
 	        <field name="comment">Manager oportunity type Permission Group</field>
 	    </record>
 
+	    <record id="sale_forecast_manager_group" model="res.groups">
+	        <field name="name">Manager sale forecast</field>
+	        <field name="comment">Manager sale forecast Permission Group</field>
+	    </record>
+
 	</data>
 </odoo>
