@@ -29,15 +29,20 @@ class SaleOrder(models.Model):
     check_contract_type = fields.Boolean(
         compute="_compute_check_contract_type",
         )
-
     type_service_id = fields.One2many(
         'sale.check.type.contract',
         'order_id',
         string='Type service'
         )
-    pdf_file_sale_contract = fields.Binary(compute="action_get_attachment")
-    signature_url_text = fields.Text()
-    check_signature = fields.Boolean()
+    pdf_file_sale_contract = fields.Binary(
+        compute="action_get_attachment")
+    signature_url_text = fields.Text(
+        string="Signature URL")
+    check_signature = fields.Boolean(
+        string="Check signature")
+    is_forecast_made = fields.Boolean(
+        string="Forecast Made")
+
 
     @api.depends('sale_type_id')
     def _compute_check_contract_type(self):
@@ -59,6 +64,7 @@ class SaleOrder(models.Model):
                         'The item should be one per line'))
                 exis_record_lines.append(line.contact_id.id)
 
+
     @api.onchange('type_service_id')
     def get_item_count(self):
         for rec in self:
@@ -66,6 +72,7 @@ class SaleOrder(models.Model):
             for line in rec.type_service_id:
                 line.item = count
                 count += 1
+
 
     def get_table_type_contracts(self):
 
@@ -78,6 +85,7 @@ class SaleOrder(models.Model):
         table += '</ul>'
         return table if flag else False
     
+
     def action_contract_send(self):
         self.ensure_one()
         template = self.env.ref('sat_companies_sale.email_contract_signature')
@@ -107,17 +115,12 @@ class SaleOrder(models.Model):
             'context': ctx,
         }
 
+
     def _compute_file_sale_contract(self):
         pdf = self.env.ref('sat_companies_sale.action_email_contract_signature').render_qweb_pdf(self.ids)
         b64_pdf = base64.b64encode(pdf[0])
-        """
-        for record in self:
-            pdf_file = self.env.ref('sat_companies_sale.action_email_contract_signature').report_action(self)
-            if pdf_file:
-                record.pdf_file_sale_contract = pdf_file
-            else:
-                record.pdf_file_sale_contract = False
-        """
+
+
     @api.depends('check_signature')
     def action_get_attachment(self):
         logging.info('******************action_get_attachment***********************')
