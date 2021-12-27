@@ -123,8 +123,6 @@ class SaleOrder(models.Model):
 
     @api.depends('check_signature')
     def action_get_attachment(self):
-        logging.info('******************action_get_attachment***********************')
-        logging.info(self.check_signature)
         for record in self:
             if record.check_signature == True:
                 pdf = self.env.ref('sat_companies_sale.action_email_contract_signature')._render_qweb_pdf(self.ids)
