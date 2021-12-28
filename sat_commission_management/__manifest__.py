@@ -1,5 +1,5 @@
 {
-    'name': 'sat commission management',
+    'name': 'SAT COMMISSION MANAGEMENT',
 
     'version': '14.0.1',
 
