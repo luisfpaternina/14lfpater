@@ -26,5 +26,12 @@
         'views/commissions_view.xml',
                    
     ],
-    'installable': True
+
+    "images": [
+        'static/description/logo.png'
+    ],
+
+    "application": False,
+    "installable": True,
+    "auto_install": False,
 }
