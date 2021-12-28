@@ -20,9 +20,9 @@
 
     'data': [
        
-        #'security/security.xml',
+        'security/security.xml',
         'security/ir.model.access.csv',
-        #'views/account_move.xml',
+        'views/commissions_view.xml',
                    
     ],
     'installable': True
