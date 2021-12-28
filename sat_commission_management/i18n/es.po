@@ -60,7 +60,7 @@ msgstr "Nombre mostrado"
 #. module: sat_commission_management
 #: model:ir.model.fields,field_description:sat_commission_management.field_commissions__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Seguidores"
 
 #. module: sat_commission_management
 #: model:ir.model.fields,field_description:sat_commission_management.field_commissions__message_channel_ids
@@ -93,7 +93,7 @@ msgstr ""
 #. module: sat_commission_management
 #: model_terms:ir.ui.view,arch_db:sat_commission_management.view_commissions_form
 msgid "Information"
-msgstr ""
+msgstr "Información"
 
 #. module: sat_commission_management
 #: model:ir.model.fields,field_description:sat_commission_management.field_commissions__message_is_follower
@@ -207,4 +207,4 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sat_commission_management.view_commissions_form
 #: model_terms:ir.ui.view,arch_db:sat_commission_management.view_commissions_tree
 msgid "commissions"
-msgstr ""
+msgstr "Comisiones"
