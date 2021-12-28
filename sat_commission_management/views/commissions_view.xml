@@ -57,7 +57,7 @@
         <menuitem 
             id="menu_commissions"
             name="commissions"
-            web_icon="sat_commission_management,static/description/icon.png" 
+            web_icon="sat_commission_management,static/description/logo.png" 
             sequence="36"/>
                    
     </data>

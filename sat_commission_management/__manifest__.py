@@ -15,6 +15,7 @@
 
         'sale_management',
         'base',
+        'contacts',
 
     ],
 
