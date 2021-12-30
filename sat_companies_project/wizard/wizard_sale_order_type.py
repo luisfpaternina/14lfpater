@@ -15,6 +15,19 @@ class WizardSaleOrderType(models.TransientModel):
 
     def accept_task_type_sale(self):
         for record in self:
+            project_fsm = self.env.ref('industry_fsm.fsm_project', raise_if_not_found=False)
+            if record.name and record.sale_type_id and record.sale_order_id:
+                for line in record.project_line_ids:
+                    self.env['project.task'].create({
+                        'name': record.name+' - '+record.sale_order_id.product_id.name,
+                        'partner_id': record.sale_order_id.partner_id.id,
+                        'ot_type_id': record.sale_type_id.id,
+                        'project_id': project_fsm.id,
+                        'is_fsm': True
+                        
+                    })
+
+            """
             if record.is_new_project == True:
                 for p in record.project_id:
                     p.write({
@@ -40,7 +53,7 @@ class WizardSaleOrderType(models.TransientModel):
                         'order_lines': record.sale_order_id.ids
                         
                     })
-            """
+            
                 if record.duplicate_task== True:
                     for line in record.project_line_ids:
                         self.env['project.task'].create({
