@@ -1,5 +1,6 @@
 from odoo import models, fields, api
 import logging
+from odoo.exceptions import ValidationError
 
 class WizardSaleOrderType(models.TransientModel):
     _name = 'wizard.sale.order.type'
@@ -15,6 +16,33 @@ class WizardSaleOrderType(models.TransientModel):
 
     def accept_task_type_sale(self):
         for record in self:
+            if not record.sale_order_id.product_id:
+                raise ValidationError(_(
+                        'To create a task you must select a Gadget in the quote'
+                    ))
+                
+            project_fsm = self.env.ref('industry_fsm.fsm_project', raise_if_not_found=False)
+            if record.sale_order_id.order_line:
+                for sale_lines in record.sale_order_id.order_line:
+                    sale_lines.is_service = True
+                    sale_lines.is_expense = False
+
+            if record.name and record.sale_type_id and record.sale_order_id:    
+                new_task = self.env['project.task'].create({
+                    'name': record.name+' - '+record.sale_order_id.product_id.name,
+                    'partner_id': record.sale_order_id.partner_id.id,
+                    'ot_type_id': record.sale_type_id.id,
+                    'project_id': project_fsm.id,
+                    #'sale_line_id':record.sale_order_id.id,
+                    'is_fsm': True
+                    
+                })
+            
+            if record.sale_order_id.order_line:
+                for sale_lines in record.sale_order_id.order_line:
+                    sale_lines.task_id = new_task.id
+
+            """
             if record.is_new_project == True:
                 for p in record.project_id:
                     p.write({
@@ -40,7 +68,7 @@ class WizardSaleOrderType(models.TransientModel):
                         'order_lines': record.sale_order_id.ids
                         
                     })
-            """
+            
                 if record.duplicate_task== True:
                     for line in record.project_line_ids:
                         self.env['project.task'].create({

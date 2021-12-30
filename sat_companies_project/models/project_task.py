@@ -147,6 +147,8 @@ class ProjectTaskInherit(models.Model):
             else:
                 record.check_qr_active = False
 
+            
+
 
     def write(self, vals):
         res = super(ProjectTaskInherit, self).write(vals)

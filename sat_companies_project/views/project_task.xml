@@ -49,11 +49,13 @@
                             class="oe_highlight"/>
                     </footer>
                 </page>
+                <!--
                 <page name="order_lines_quotation" string="Lines quotations">
                     <group>
                         <field name="order_lines"/>
                     </group>
                 </page>
+                -->
             </xpath>
         </field>
     </record>

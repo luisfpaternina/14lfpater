@@ -40,7 +40,7 @@
                     </group>
                 </page>
             </xpath>
-
+            <!--
             <xpath expr="//form/sheet/notebook/page[(@name='order_lines')]/field[1]/tree[1]/field[(@name='product_template_id')]" position="after">
                 <field name="check_is_gadget" invisible="True"/>
                 <field name="rae" attrs="{'invisible': [('check_is_gadget', '!=', True)]}"/>
@@ -51,7 +51,7 @@
                 <field name="gadget_load" attrs="{'invisible': [('check_is_gadget', '!=', True)]}"/>
                 <field name="nominal_speed" attrs="{'invisible': [('check_is_gadget', '!=', True)]}"/>
             </xpath>
-
+            -->
         </field> 
     </record>
 </odoo>
