@@ -5,7 +5,7 @@ from odoo.exceptions import ValidationError
 class ProjectTaskTypeAssociated(models.Model):
     _name = 'project.task.type.associated'
     _inherit = 'mail.thread'
-    _description = 'Types of associated tasks'
+    _description = 'Category/UdN OT'
 
     name = fields.Char(string="Name",tracking=True)
     code = fields.Char(string="Code",tracking=True)
