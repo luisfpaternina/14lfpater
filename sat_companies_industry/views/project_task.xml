@@ -33,7 +33,7 @@
                         </field>
                     </group>
                 </page>
-                <page name="gadgets" string="Gadgets">
+                <page name="gadgets" string="Gadgets" attrs="{'invisible': [('product_id', '=', False)]}">
                     <group>
                         <group>
                             <field name="address"/>
