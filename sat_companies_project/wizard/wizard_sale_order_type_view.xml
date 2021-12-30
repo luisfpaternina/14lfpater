@@ -21,11 +21,12 @@
                                 />
                             </group>
                         </group>
+                        <!--
                         <group>
                             <field name="duplicate_task"/>
                         </group>
+                        -->
                        <group>
-                           
                        </group>
                        <group>
                            <group>

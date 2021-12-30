@@ -42,6 +42,10 @@ class SaleOrder(models.Model):
         string="Check signature")
     is_forecast_made = fields.Boolean(
         string="Forecast Made")
+    product_id = fields.Many2one(
+        'product.template',
+        string='Gadget'
+        )
 
 
     @api.depends('sale_type_id')

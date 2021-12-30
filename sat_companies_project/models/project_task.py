@@ -85,6 +85,7 @@ class ProjectTaskInherit(models.Model):
     check_pit_datetime = fields.Datetime('Check Datetime Pit')
     check_cabine_datetime = fields.Datetime('Check Datetime Cabine')
     check_machine_datetime = fields.Datetime('Check Datetime Machine')
+    order_lines = fields.One2many('sale.order.line', 'task_id')
 
     def _compute_check_suscription_recurrent(self):
         for record in self:

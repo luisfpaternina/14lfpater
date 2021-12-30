@@ -36,9 +36,11 @@ class WizardSaleOrderType(models.TransientModel):
                         'name': record.name+' - '+line.product_id.name+'TAREA DE LINEA',
                         'partner_id': record.sale_order_id.partner_id.id,
                         'ot_type_id': record.sale_type_id.id,
-                        'is_fsm': True
+                        'is_fsm': True,
+                        'order_lines': record.sale_order_id.ids
+                        
                     })
-
+            """
                 if record.duplicate_task== True:
                     for line in record.project_line_ids:
                         self.env['project.task'].create({
@@ -46,6 +48,6 @@ class WizardSaleOrderType(models.TransientModel):
                             'partner_id': record.sale_order_id.partner_id.id,
                             'ot_type_id': record.sale_type_id.id,
                         })
-                
+            """ 
                 
             record.sale_order_id.action_confirm()

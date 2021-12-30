@@ -35,3 +35,8 @@ class SaleOrder(models.Model):
     check_is_gadget = fields.Boolean(related='product_id.is_gadget')
 
 
+    @api.onchange('product_id')
+    def product_gadget_domain(self):
+        for record in self:
+            if record.order_id.product_id.is_gadget == True:
+                return {'domain': {'product_id': [('is_gadget', '=', False)]}}
