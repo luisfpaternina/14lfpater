@@ -36,19 +36,10 @@
                 <page name="gadgets" string="Gadgets">
                     <group>
                         <group>
-                            <field name="product_id" options="{'no_create': True, 'no_create_edit':True}" domain = "[('is_gadget','=',True)]"/>
-                        </group>
-                        <group>
                             <field name="address"/>
                         </group>
                         <group>
-                            
-                        </group>
-                        <group>
                             <field name="reference"/>
-                        </group>
-                        <group>
-                            
                         </group>
                     </group>
                 </page>
@@ -107,6 +98,9 @@
                         <field name="ot_description" placeholder="Observations"/>
                     </group>
                 </page>
+            </xpath>
+            <xpath expr="//field[(@name='partner_id')]" position="after">
+                <field name="product_id" options="{'no_create': True, 'no_create_edit':True}" domain = "[('is_gadget','=',True)]"/>
             </xpath>
             <xpath expr="//field[(@name='partner_id')]" position="after">
                 <field name="ot_type_id" options="{'no_create': True, 'no_create_edit':True}"/>
